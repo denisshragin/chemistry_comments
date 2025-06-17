@@ -1,3 +1,39 @@
+## Délai de conservation dépassé
+
+=== "Général"
+    ```
+    L'analyse de XXX a été effectuée dans un délai dépassé.
+    ```
+=== "DBO"
+    ```
+    L'analyse de la Demande biochimique en oxygène a été effectuée dans un délai dépassé.
+    ```
+=== "DBOc"
+    ```
+    L'analyse de la Demande biochimique en oxygène carbonée a été effectuée dans un délai dépassé.
+    ```
+=== "DBOt"
+    ```
+    L'analyse de la Demande biochimique en oxygène totale a été effectuée dans un délai dépassé.
+    ```
+=== "DBOc et d"
+    ```
+    L'analyse de la Demande biochimique en oxygène carbonée et dissous a été effectuée dans un délai dépassé.
+    ```
+=== "DBOd"
+    ```
+    L'analyse de la Demande biochimique en oxygène dissous a été effectuée dans un délai dépassé.
+    ```
+=== "C10C50"
+    ```
+    L'analyse des Hydrocarbures Pétroliers (C10-C50) a été effectuée dans un délai dépassé.
+    ```    
+=== "C10C50 et HAP"
+    ```
+    Les analyses des Hydrocarbures aromatiques polycycliques et des Hydrocarbures Pétroliers (C10-C50) ont été effectuées dans un délai dépassé.
+    ```
+
+
 ## Filtration
 === "Général"
     ```

@@ -1,4 +1,24 @@
 
+## Délai de conservation dépassé
+
+=== "Général"
+    ```
+    L'analyse de XXX a été effectuée dans un délai dépassé.
+    ```
+=== "pH"
+    ```
+    L'analyse du pH a été effectuée dans un délai dépassé.
+    ```
+=== "pH-15°C"
+    ```
+    L'analyse du pH-15°C a été effectuée dans un délai dépassé.
+    ```
+=== "MES"
+    ```
+    L'analyse des Matières en suspension a été effectuée dans un délai dépassé.
+    ```
+
+
 ## Filtration
 === "Général"
     ```
