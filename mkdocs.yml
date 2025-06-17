@@ -1,0 +1,25 @@
+site_name: Commentaires
+site_url: https://denisshragin.github.io/chemistry_comments/
+nav:
+  - Home page: 'index.md'
+  - Métaux: "metaux.md"
+  - Inorganique: "inorganique.md"
+  - Organique: "organique.md"
+  - Inter-paramètres: 'inter_param.md'
+  - Autres: "autres.md"
+theme: 
+  name: material
+  features:
+  - navigation.tabs
+  - navigation.tabs.sticky
+  - content.code.copy
+
+  palette:
+    primary: teal
+
+copyright: Copyright &copy; 2025  Denis Shragin
+
+markdown_extensions:
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
