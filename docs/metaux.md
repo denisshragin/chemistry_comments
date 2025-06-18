@@ -16,15 +16,15 @@
 ### MR non-conforme
 Métaux extractibles, MR non-conforme:
 ```
-Métaux extractibles: Le matériel de référence est non-conforme pour Argent, mais aucun impact sur le résultat de l'échantillon.
+Métaux extractibles: Le matériel de référence est non-conforme pour l'Argent, mais aucun impact sur le résultat de l'échantillon.
 ```
 Métaux solubles à l'acide, MR non-conforme:
 ```
-Métaux solubles à l'acide: Le matériel de référence est non conforme pour Baryum, mais aucun impact sur les résultats de l’échantillon. 
+Métaux solubles à l'acide: Le matériel de référence est non conforme pour le Baryum, mais aucun impact sur les résultats de l’échantillon. 
 ```
 Métaux dissous, MR non-conforme:
 ```
-Métaux dissous: Le matériel de référence est non conforme pour Baryum, mais aucun impact sur les résultats de l’échantillon. 
+Métaux dissous: Le matériel de référence est non conforme pour le Baryum, mais aucun impact sur les résultats de l’échantillon. 
 ```
 ### Blanc positif
 Métaux extractibles: Blanc positif soustrait

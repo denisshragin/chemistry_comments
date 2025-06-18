@@ -44,46 +44,6 @@
     L'échantillon a été filtré pour l'analyse de l'Indice phénolique.
     ```
 
-
-## Congélation DBO
-=== "DBO congélation-client"
-    ```
-    L'échantillon pour l'analyse de la Demande biochimique en oxygène a été congelé par le client. 
-    ```
-=== "DBO congélation-labo"
-    ```
-    L'échantillon pour l'analyse de la Demande biochimique en oxygène a été congelé à la réception au laboratoire. 
-    ```
-=== "DBO congélation-client/labo"
-    ```
-    L'échantillon pour l'analyse de la Demande biochimique en oxygène a été congelé par le client.
-    L'échantillon pour l'analyse de la Demande biochimique en oxygène a été congelé à la réception au laboratoire. 
-    ```
-DBO analyse en reprise sur un échantillon congelé:
-
-=== "DBO reprise"
-    ```
-    L'analyse de la Demande biochimique en oxygène a été effectuée en reprise sur un échantillon congelé.
-    ```
-=== "DBOt congelé labo+reprise"
-    ```
-    L'échantillon pour l'analyse de la Demande biochimique en oxygène totale a été congelé à la réception au laboratoire. 
-    L'analyse de la Demande biochimique en oxygène totale a été effectuée en reprise sur un échantillon congelé.
-    ```
-=== "DBOc congelé labo+reprise"
-    ```
-    L'échantillon pour l'analyse de la Demande biochimique en oxygène carbonée a été congelé à la réception au laboratoire. 
-    L'analyse de la Demande biochimique en oxygène carbonée a été effectuée en reprise sur un échantillon congelé.
-    ```
-=== "DBOc et d congelé labo+reprise"
-    ```
-    L'échantillon pour l'analyse de la Demande biochimique en oxygène carbonée et dissous a été congelé à la réception au laboratoire. 
-    L'analyse de la Demande biochimique en oxygène carbonée et dissous a été effectuée en reprise sur un échantillon congelé.
-    ```
-DBO - filtration après congélation:
-```
-L'échantillon a été filtré après congélation pour l'analyse de la Demande biochimique en oxygène dissous.
-```
 ## pH ajusté
 === "Général"
     ```
@@ -105,8 +65,6 @@ L'échantillon a été filtré après congélation pour l'analyse de la Demande 
     ```
     Huiles et graisses totales - Gravimétrie: Agent de conservation insuffisant, pH ajusté au laboratoire.
     ```
-
-
 
 ## Limite rapportée augmentée
 Général: Interférence de la matrice
@@ -136,6 +94,11 @@ Général: % d'humidité élevé
     ```
     XXX: En raison d'un pourcentage d'humidité élevé, les limites rapportées ont été augmentées.
     ```
+=== "HAP"
+    ```
+    Hydrocarbures aromatiques polycycliques: En raison d'un pourcentage d'humidité élevé, les limites rapportées ont été augmentées.
+    ```
+
 Général: quantité insuffisant d'échantillon
 ```
 XXX: La limite rapportée a été augmentée due à une quantité insuffisante d'échantillon.
@@ -155,25 +118,6 @@ LR augmentées
     Hydrocarbures aromatiques polycycliques: Les limites rapportées ont été augmentées dues à une dilution de l'échantillon en raison de la matrice.
     ```
     
-
-
-DBO LR augmentée: 
-=== "DBOc TARKETT avec LR augmentée"
-```
-Demande biochimique en oxygène carbonée: La limite rapportée a été augmentée due à une interférence de la matrice. Présence d'interférence pour l’analyse de la Demande biochimique en oxygène carbonée. Le résultat est à interpréter avec diligence et discernement.
-```
-=== "DBOc et DBOt TARKETT avec LR augmentée"
-```
-Demande biochimique en oxygène carbonée, Demande biochimique en oxygène totale: La limite rapportée a été augmentée due à une interférence de la matrice. Présence d'interférence pour les analyses de la Demande biochimique en oxygène carbonée et de la Demande biochimique en oxygène totale. Les résultats sont à interpréter avec diligence et discernement.
-```
-=== "DBOc TARKETT"
-```
-Présence d'interférence pour l’analyse de la Demande biochimique en oxygène carbonée. Le résultat est à interpréter avec diligence et discernement.
-```
-=== "DBOc et DBOt TARKETT"
-```
-Présence d'interférence pour les analyses de la Demande biochimique en oxygène carbonée et de la Demande biochimique en oxygène totale. Les résultats sont à interpréter avec diligence et discernement.
-```
 
 ## B(a)P Hygiène
 LR augmentée (pour le support)
@@ -225,6 +169,14 @@ Humidité élevé et masse insuffisante
 ```
 COV:  En raison d'un pourcentage d'humidité élevé et d'un poids d'extraction insuffisant, les limites rapportées ont été augmentées et les résultats peuvent être sous-estimés.
 ```
+Blanc positif - pas d'impact
+```
+COV: Blanc est positif en 1,4-dichlorobenzène et 1,2-dichlorobenzène, mais aucun impact sur les résultats de l'échantillon.
+```
+MR non-conforme
+```
+COV :  Les matériaux de référence Chlorure de vinyle, Tétrachloroéthène et Pentachloroéthane sont hors critères d'acceptabilité, mais aucun impact sur les résultats de l'échantillon.
+```
 
 ## DCO / DBO
 
@@ -236,14 +188,7 @@ DCO avec couche de gras:
 ```
 DCO: L'échantillon a été chauffé avant l'analyse pour faire fondre la couche de gras. 
 ```
-DBOt et DBOc TARKETT
-```
-Présence d'interférence pour les analyses de la Demande biochimique en oxygène carbonée et de la Demande biochimique en oxygène totale. Les résultats sont à interpréter avec diligence et discernement.
-```
-DBO TARKETT
-```
-Présence d'interférence pour l’analyse de la demande biochimique en oxygène carbonée. Le résultat est à interpréter avec diligence et discernement.
-```
+
 
 ## C10-C50 et HAP
 ```
@@ -291,6 +236,7 @@ Hydrocarbures aromatiques polycycliques : À cause d'une erreur de manipulation 
 ```
 
 
+
 ## HGT et HGM
 Blanc non-conforme
 ```
@@ -313,4 +259,9 @@ Solvants halogénés: Une contamination détectée et rapportée dans la région
 Hydrocarbures volatils C1-C6
 ```
 Hydrocarbures volatils C1-C6: Présence d’une contamination non-identifiable se situant entre le butane (C4) et le pentane (C5).
+```
+### MR non-conforme
+Solvants Halogénés - MR non-conforme (trop fort)
+```
+Solvants halogénés: Le matériel de référence est non-conforme (trop fort) le résultat de l’échantillon peut être surestimé.
 ```

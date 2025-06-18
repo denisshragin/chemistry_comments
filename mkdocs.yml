@@ -5,6 +5,7 @@ nav:
   - Métaux: "metaux.md"
   - Inorganique: "inorganique.md"
   - Organique: "organique.md"
+  - DBO: "dbo.md"
   - Inter-paramètres: 'inter_param.md'
   - Autres: "autres.md"
 theme: 
@@ -23,3 +24,4 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
+
