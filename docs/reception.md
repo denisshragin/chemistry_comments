@@ -1,5 +1,11 @@
 # Réception
 
+## Commentaires
+```
+Température mesurée par le client: * °C.
+```
+
+
 ## Délai de conservation dépassé
 
 === "Général"
@@ -77,6 +83,11 @@ L'échantillon pour l'analyse des Métaux dissous a été filtré et préservé 
     L'échantillon pour l'analyse de la Demande biochimique en oxygène a été congelé par le client.
     L'échantillon pour l'analyse de la Demande biochimique en oxygène a été congelé à la réception au laboratoire. 
     ```
+## DBO reçu décongelée
+```
+L'échantillon pour l'analyse de la Demande biochimique en oxygène a été congelé par le client, mais a été reçu décongelé.
+```
+
 ## Anglais
 === "BOD frozen-client"
     ```

@@ -177,7 +177,10 @@ MR non-conforme
 ```
 COV :  Les matériaux de référence Chlorure de vinyle, Tétrachloroéthène et Pentachloroéthane sont hors critères d'acceptabilité, mais aucun impact sur les résultats de l'échantillon.
 ```
-
+RQEP
+```
+Composés organiques volatils Règ.EP D140:  Le matériel de référence Chlorure de vinyle est hors critères d'acceptabilité, mais aucun impact sur les résultats de l'échantillon.
+```
 ## DCO / DBO
 
 DCO et DBO les bouteilles sont différentes:
@@ -234,7 +237,10 @@ Surrogates oiubliés:
 ```
 Hydrocarbures aromatiques polycycliques : À cause d'une erreur de manipulation les récupérations des étalons de recouvrement ne sont pas disponibles, mais aucun impact sur le résultat de l'échantillon.
 ```
-
+MR non conforme
+```
+Hydrocarbures aromatiques polycycliques:  Les matériaux de référence Dibenzo(a,l)pyrène et Dibenzo(a,h)pyrène sont hors critères d'acceptabilité, mais aucun impact sur les résultats de l'échantillon.
+```
 
 
 ## HGT et HGM

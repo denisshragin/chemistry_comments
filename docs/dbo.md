@@ -115,3 +115,7 @@ L'analyse de la Demande biochimique en oxygène a été effectuée en reprise su
     The sample for Biochemical Oxygen Demand analysis was frozen by the client.
     The sample for Biochemical Oxygen Demand analysis was frozen upon receipt at the laboratory.
     ```
+## DBO reçu décongelée
+```
+L'échantillon pour l'analyse de la Demande biochimique en oxygène a été congelé par le client, mais a été reçu décongelé.
+```

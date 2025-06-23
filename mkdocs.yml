@@ -2,6 +2,7 @@ site_name: Commentaires
 site_url: https://denisshragin.github.io/chemistry_comments/
 nav:
   - Home page: 'index.md'
+  - Réception: "reception.md"
   - Métaux: "metaux.md"
   - Inorganique: "inorganique.md"
   - Organique: "organique.md"

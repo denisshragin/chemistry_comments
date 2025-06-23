@@ -6,4 +6,4 @@ Cliquez sur l'îcon 'copier' et collez ce commentaire dans la section de comment
 
 
 
-### *Ce page est en construction*
+### *Cette page est en construction*
