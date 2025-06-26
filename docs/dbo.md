@@ -45,7 +45,7 @@
     ```
     L'échantillon pour l'analyse de la Demande biochimique en oxygène carbonée et dissous a été congelé à la réception au laboratoire. 
     ```
-    
+
 ## DBO reçue décongelée
 ```
 L'échantillon pour l'analyse de la Demande biochimique en oxygène a été congelé par le client, mais a été reçu décongelé.
@@ -140,13 +140,3 @@ L'échantillon pour l'analyse de la Demande biochimique en oxygène a été cong
     The sample for Biochemical Oxygen Demand analysis was frozen by the client.
     The sample for Biochemical Oxygen Demand analysis was frozen upon reception at the laboratory.
     ```
-
-## Bouteiiles différentes ou inversées
-Bouteilles différentes
-```
-Les résultats de la Demande chimique en oxygène et de la Demande biochimique en oxygène ne respectent pas les critères de comparaison inter-paramètres. L'apparence de la matrice des deux bouteilles est différente
-```
-Bouteilles inversées
-```
-Les contenants semblent avoir été inversés par le client lors du prélèvement de l’affluent et de l’effluent pour le paramètre de XXX.
-```
