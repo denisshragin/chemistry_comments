@@ -210,8 +210,13 @@ DCO: L'échantillon a été chauffé avant l'analyse pour faire fondre la couche
 
 
 ## C10-C50 et HAP
+C10-C50, Erreur de manipulation
 ```
 Hydrocarbures Pétroliers (C10-C50): À cause d'une erreur de manipulation la meilleure limite rapportée ne peut pas être fournie.
+```
+C10-C50, MR non-conforme (trop fort):
+```
+Hydrocarbures Pétroliers (C10-C50): Le matériel de référence est non-conforme (trop fort), le résultat de l'échantillon peut être surestimé.
 ```
 HAP, LR augmentées
 ```
@@ -223,37 +228,37 @@ Hydrocarbures aromatiques polycycliques: Les limites rapportées ont été augme
 ```
 Hydrocarbures aromatiques polycycliques, Hydrocarbures Pétroliers (C10-C50): L’échantillon est constitué à plus de 80% de gravier de plus de 5mm. L’analyse à été effectué selon la dérogation gravier.
 ```
-Blanc positif
+HAP, Blanc positif
 ```
 Hydrocarbures aromatiques polycycliques: Blanc est positif en Dibenzo(a, h)pyrène, mais aucun impact sur les résultats de l’échantillon.
 ```
-Surrogates trop élevés
+HAP, Surrogates trop élevés
 ```
 Hydrocarbures aromatiques polycycliques : Les étalons de recouvrement sont non conformes, trop élevés, les résultats peuvent être surévalués.
 ```
-MR non-conforme (trop fort)
+HAP, MR non-conforme (trop fort)
 ```
 Hydrocarbures aromatiques polycycliques: Le matériel de référence est non-conforme (trop fort) pour le 7,12-diméthylbenzo(a)anthracène, le Benzo(e)pyrène, le Benzo(a)pyrène, le Dibenzo(a, h)antracène et le Dibenzo(a, h)pyrène. Le résultat de l’échantillon peut être surestimé pour ces composés.
 ```
-Dilution excessive
+HAP, Dilution excessive
 ```
 Hydrocarbures aromatiques polycycliques : Les récupérations des étalons de recouvrement ne sont pas disponibles à cause d’une dilution excessive de l’échantillon.
 ```
-En dehors de la courbe
+HAP, En dehors de la courbe
 ```
 Hydrocarbures aromatiques polycycliques: Certains composés sont en dehors de notre domaine de linéarité, les résultats peuvent être sous-évalués.
 ```
 ```
 Hydrocarbures aromatiques polycycliques: Le Phénanthrène est en dehors de notre domaine de linéarité, cependant, une reprise est impossible car il ne restait pas assez d’échantillon. Les résultats peuvent être sous-évalués.
 ```
-Surrogates oiubliés:
+HAP, Surrogates oiubliés:
 ```
 Hydrocarbures aromatiques polycycliques : À cause d'une erreur de manipulation les récupérations des étalons de recouvrement ne sont pas disponibles, mais aucun impact sur le résultat de l'échantillon.
 ```
 MR HAP non conforme mono
 === "Général"
     ```
-    Hydrocarbures aromatiques polycycliques:  Le matériel de référence le Dibenzo(a,l)pyrène est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
+    Hydrocarbures aromatiques polycycliques:  Le matériel de référence le XXX est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
     ```
 === "Dibenzo(a,l)pyrène"
     ```
