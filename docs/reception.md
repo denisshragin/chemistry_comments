@@ -95,7 +95,7 @@ L'échantillon pour l'analyse de la Demande biochimique en oxygène a été cong
     ```
 === "BOD frozen-lab"
     ```
-    The sample for Biochemical Oxygen Demand analysis was frozen upon receipt at the laboratory.
+    The sample for Biochemical Oxygen Demand analysis was frozen upon reception at the laboratory.
     ```
 
 ## Unités

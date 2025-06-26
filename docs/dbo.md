@@ -2,7 +2,6 @@
 
 ## Délai de conservation dépassé
 
-
 === "DBO"
     ```
     L'analyse de la Demande biochimique en oxygène a été effectuée dans un délai dépassé.
@@ -19,12 +18,38 @@
     ```
     L'analyse de la Demande biochimique en oxygène dissous a été effectuée dans un délai dépassé.
     ```
-=== "DBOc et d"
+=== "DBO carbonée et dissous"
     ```
     L'analyse de la Demande biochimique en oxygène carbonée et dissous a été effectuée dans un délai dépassé.
     ```
 
+## Congélation labo 
 
+=== "DBO"
+    ```
+    L'échantillon pour l'analyse de la Demande biochimique en oxygène a été congelé à la réception au laboratoire. 
+    ```
+=== "DBO totale"
+    ```
+    L'échantillon pour l'analyse de la Demande biochimique en oxygène totale a été congelé à la réception au laboratoire. 
+    ```
+=== "DBO carbonée"
+    ```
+    L'échantillon pour l'analyse de la Demande biochimique en oxygène carbonée a été congelé à la réception au laboratoire. 
+    ```
+=== "DBO dissous"
+    ```
+    L'échantillon pour l'analyse de la Demande biochimique en oxygène dissous a été congelé à la réception au laboratoire. 
+    ```
+=== "DBO carbonée et dissous"
+    ```
+    L'échantillon pour l'analyse de la Demande biochimique en oxygène carbonée et dissous a été congelé à la réception au laboratoire. 
+    ```
+    
+## DBO reçue décongelée
+```
+L'échantillon pour l'analyse de la Demande biochimique en oxygène a été congelé par le client, mais a été reçu décongelé.
+```
 
 ## Congélation (commentaire général)
 === "DBO congélation-client"
@@ -41,56 +66,56 @@
     L'échantillon pour l'analyse de la Demande biochimique en oxygène a été congelé à la réception au laboratoire. 
     ```
 
-## Congélation labo 
-
-=== "DBO totale"
-    ```
-    L'échantillon pour l'analyse de la Demande biochimique en oxygène totale a été congelé à la réception au laboratoire. 
-    ```
-=== "DBO dissous"
-    ```
-    L'échantillon pour l'analyse de la Demande biochimique en oxygène dissous a été congelé à la réception au laboratoire. 
-    ```
-=== "DBO carbonée"
-    ```
-    L'échantillon pour l'analyse de la Demande biochimique en oxygène carbonée a été congelé à la réception au laboratoire. 
-    ```
-=== "DBO carbonée et dissous"
-    ```
-    L'échantillon pour l'analyse de la Demande biochimique en oxygène carbonée et dissous a été congelé à la réception au laboratoire. 
-    ```
-
 ## Analyse en reprise sur un échantillon congelé:
 
-DBO reprise - commentaire général
-```
-L'analyse de la Demande biochimique en oxygène a été effectuée en reprise sur un échantillon congelé.
-```
-DBO congélation + reprise - commentaire général
-```
-L'échantillon pour l'analyse de la Demande biochimique en oxygène a été congelé à la réception au laboratoire. 
-L'analyse de la Demande biochimique en oxygène a été effectuée en reprise sur un échantillon congelé.
-```
-=== "DBOt congelé + reprise"
+=== "DBO reprise"
+    ```
+    L'analyse de la Demande biochimique en oxygène a été effectuée en reprise sur un échantillon congelé.
+    ```
+=== "DBO totale reprise"
+    ```
+    L'analyse de la Demande biochimique en oxygène totale a été effectuée en reprise sur un échantillon congelé.
+    ```
+=== "DBO carbonée reprise"
+    ``` 
+    L'analyse de la Demande biochimique en oxygène carbonée a été effectuée en reprise sur un échantillon congelé.
+    ```
+=== "DBO dissous reprise"
+    ``` 
+    L'analyse de la Demande biochimique en oxygène dissous a été effectuée en reprise sur un échantillon congelé.
+    ```
+=== "DBO carbonée et dissous reprise"
+    ```
+    L'analyse de la Demande biochimique en oxygène carbonée et dissous a été effectuée en reprise sur un échantillon congelé.
+    ```
+
+## Congélation au labo + Analyse en reprise
+=== "DBO"
+    ```
+    L'échantillon pour l'analyse de la Demande biochimique en oxygène a été congelé à la réception au laboratoire. 
+    L'analyse de la Demande biochimique en oxygène a été effectuée en reprise sur un échantillon congelé.
+    ```
+=== "DBO totale"
     ```
     L'échantillon pour l'analyse de la Demande biochimique en oxygène totale a été congelé à la réception au laboratoire. 
     L'analyse de la Demande biochimique en oxygène totale a été effectuée en reprise sur un échantillon congelé.
     ```
-=== "DBOc congelé + reprise"
+=== "DBO carbonée"
     ```
     L'échantillon pour l'analyse de la Demande biochimique en oxygène carbonée a été congelé à la réception au laboratoire. 
     L'analyse de la Demande biochimique en oxygène carbonée a été effectuée en reprise sur un échantillon congelé.
     ```
-=== "DBOc et d congelé +reprise"
-    ```
-    L'échantillon pour l'analyse de la Demande biochimique en oxygène carbonée et dissous a été congelé à la réception au laboratoire. 
-    L'analyse de la Demande biochimique en oxygène carbonée et dissous a été effectuée en reprise sur un échantillon congelé.
-    ```
-=== "DBOd congelé +reprise"
+=== "DBO dissous"
     ```
     L'échantillon pour l'analyse de la Demande biochimique en oxygène dissous a été congelé à la réception au laboratoire. 
     L'analyse de la Demande biochimique en oxygène dissous a été effectuée en reprise sur un échantillon congelé.
     ```
+=== "DBO carbonée et dissous"
+    ```
+    L'échantillon pour l'analyse de la Demande biochimique en oxygène carbonée et dissous a été congelé à la réception au laboratoire. 
+    L'analyse de la Demande biochimique en oxygène carbonée et dissous a été effectuée en reprise sur un échantillon congelé.
+    ```
+
 ## DBO - filtration après congélation:
 === "DBO dissous"
     ```
@@ -108,14 +133,20 @@ L'analyse de la Demande biochimique en oxygène a été effectuée en reprise su
     ```
 === "BOD frozen-lab"
     ```
-    The sample for Biochemical Oxygen Demand analysis was frozen upon receipt at the laboratory.
+    The sample for Biochemical Oxygen Demand analysis was frozen upon reception at the laboratory.
     ```
 === "BOD frozen-client and frozen-lab"
     ```
     The sample for Biochemical Oxygen Demand analysis was frozen by the client.
-    The sample for Biochemical Oxygen Demand analysis was frozen upon receipt at the laboratory.
+    The sample for Biochemical Oxygen Demand analysis was frozen upon reception at the laboratory.
     ```
-## DBO reçu décongelée
+
+## Bouteiiles différentes ou inversées
+Bouteilles différentes
 ```
-L'échantillon pour l'analyse de la Demande biochimique en oxygène a été congelé par le client, mais a été reçu décongelé.
+Les résultats de la Demande chimique en oxygène et de la Demande biochimique en oxygène ne respectent pas les critères de comparaison inter-paramètres. L'apparence de la matrice des deux bouteilles est différente
+```
+Bouteilles inversées
+```
+Les contenants semblent avoir été inversés par le client lors du prélèvement de l’affluent et de l’effluent pour le paramètre de XXX.
 ```

@@ -97,11 +97,19 @@ Général: % d'humidité élevé
 === "HAP"
     ```
     Hydrocarbures aromatiques polycycliques: En raison d'un pourcentage d'humidité élevé, les limites rapportées ont été augmentées.
+=== "COV"
     ```
+    COV: En raison d'un pourcentage d'humidité élevé, les limites rapportées ont été augmentées.
+    ```    ```
 
 Général: quantité insuffisant d'échantillon
+Mono
 ```
 XXX: La limite rapportée a été augmentée due à une quantité insuffisante d'échantillon.
+```
+Multi
+```
+XXX: Les limites rapportées ont été augmentées dues à une quantité insuffisante d'échantillon.
 ```
 
 LR augmentées
@@ -147,7 +155,7 @@ COV: En raison d'un pourcentage d'humidité élevé, les limites rapportées ont
 ```
 Poids insuffisant (sols):
 ```
-COV: En raison d'un poids d'extraction insuffisant, les limites rapportées ont été augmentées et les résultats peuvent être sous-estimés.
+COV: En raison d'un poids d'extraction insuffisant, les limites rapportées ont été augmentées.
 ```
 COV pot non-conforme:
 ```
@@ -167,19 +175,27 @@ COV: Les limites rapportées ont été augmentées dues à une dilution de l'éc
 ```
 Humidité élevé et masse insuffisante
 ```
-COV:  En raison d'un pourcentage d'humidité élevé et d'un poids d'extraction insuffisant, les limites rapportées ont été augmentées et les résultats peuvent être sous-estimés.
+COV:  En raison d'un pourcentage d'humidité élevé et d'un poids d'extraction insuffisant, les limites rapportées ont été augmentées.
 ```
 Blanc positif - pas d'impact
 ```
 COV: Blanc est positif en 1,4-dichlorobenzène et 1,2-dichlorobenzène, mais aucun impact sur les résultats de l'échantillon.
 ```
-MR non-conforme
+MR non-conforme mono
 ```
-COV :  Les matériaux de référence Chlorure de vinyle, Tétrachloroéthène et Pentachloroéthane sont hors critères d'acceptabilité, mais aucun impact sur les résultats de l'échantillon.
+COV :  Le matériel de référence le Chlorure de vinyle est hors critères d'acceptabilité, mais aucun impact sur les résultats de l'échantillon.
 ```
-RQEP
+MR non-conforme multi
 ```
-Composés organiques volatils Règ.EP D140:  Le matériel de référence Chlorure de vinyle est hors critères d'acceptabilité, mais aucun impact sur les résultats de l'échantillon.
+COV :  Les matériaux de référence le Chlorure de vinyle, le Tétrachloroéthène et le Pentachloroéthane sont hors critères d'acceptabilité, mais aucun impact sur les résultats de l'échantillon.
+```
+RQEP mono
+```
+Composés organiques volatils Règ.EP D140:  Le matériel de référence le Chlorure de vinyle est hors critères d'acceptabilité, mais aucun impact sur les résultats de l'échantillon.
+```
+RQEP multi
+```
+Composés organiques volatils Règ.EP D140:  Les matériaux de référence le Chlorure de vinyle et le Tétrachloroéthène sont hors critères d'acceptabilité, mais aucun impact sur les résultats de l'échantillon.
 ```
 ## DCO / DBO
 
@@ -215,12 +231,9 @@ Surrogates trop élevés
 ```
 Hydrocarbures aromatiques polycycliques : Les étalons de recouvrement sont non conformes, trop élevés, les résultats peuvent être surévalués.
 ```
-```
-Hydrocarbures aromatiques polycycliques: Les étalons de recouvrement sont non-conformes (trop élevés). Les résultats peuvent être surestimés.
-```
 MR non-conforme (trop fort)
 ```
-Hydrocarbures aromatiques polycycliques: Le matériel de référence est non-conforme (trop fort) pour 7,12-diméthylbenzo(a)anthracène, Benzo(e)pyrène, Benzo(a)pyrène, Dibenzo(a, h)antracène et Dibenzo(a, h)pyrène. Le résultat de l’échantillon peut être surestimé pour ces composés.
+Hydrocarbures aromatiques polycycliques: Le matériel de référence est non-conforme (trop fort) pour le 7,12-diméthylbenzo(a)anthracène, le Benzo(e)pyrène, le Benzo(a)pyrène, le Dibenzo(a, h)antracène et le Dibenzo(a, h)pyrène. Le résultat de l’échantillon peut être surestimé pour ces composés.
 ```
 Dilution excessive
 ```
@@ -237,9 +250,13 @@ Surrogates oiubliés:
 ```
 Hydrocarbures aromatiques polycycliques : À cause d'une erreur de manipulation les récupérations des étalons de recouvrement ne sont pas disponibles, mais aucun impact sur le résultat de l'échantillon.
 ```
-MR non conforme
+MR non conforme mono
 ```
-Hydrocarbures aromatiques polycycliques:  Les matériaux de référence Dibenzo(a,l)pyrène et Dibenzo(a,h)pyrène sont hors critères d'acceptabilité, mais aucun impact sur les résultats de l'échantillon.
+Hydrocarbures aromatiques polycycliques:  Le matériel de référence le Dibenzo(a,l)pyrène est hors critères d'acceptabilité, mais aucun impact sur les résultats de l'échantillon.
+```
+MR non conforme multi
+```
+Hydrocarbures aromatiques polycycliques:  Les matériaux de référence le Dibenzo(a,l)pyrène et le Dibenzo(a,h)pyrène sont hors critères d'acceptabilité, mais aucun impact sur les résultats de l'échantillon.
 ```
 
 
