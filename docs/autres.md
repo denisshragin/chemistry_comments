@@ -1,47 +1,41 @@
-## Température
+
+## Autres
 ```
-Le résultat de l'Azote ammoniacal non ionisé a été calculé en utilisant le pH à 25°C.
+XXX: À cause d'une erreur de manipulation la meilleure limite ne peut pas être fournie.
+```
+```
+Les résultats des Matières en suspension pour les paramètres des matières en suspension et des matières en suspension et en suspension volatiles diffèrent, car ils ont été analysés sur deux bouteilles différentes.
+```
+```
+L'échantillon pour l'analyse des Matières en suspension est hétérogène. Le résultat le plus élevé a été transmis. Autres résultats obtenus: XX et XX.
 ```
 
+Base humide
 ```
-Le résultat de l'Azote ammoniacal non ionisé a été calculé en utilisant le pH fourni par le client.
+XXX : Les résultats sont rapportés sur une base humide.
+```
+Analyse en reprise dans un délai de conservation dépassé: (**non-conforme**):
+```
+L'analyse de XXX a été effectuée en reprise dans un délai dépassé.
+```
+```
+Normes et limites du BNQ. Échantillonneur #27.
+```
+```
+Duplicata non conforme en raison de l’hétérogénéité de l’échantillon.
+```
+```
+Les résultats de XXX et de XXX ne respectent pas les critères de comparaison inter-paramètres. Les résultats des 2 analyses ont été confirmés en reprise.
 ```
 
-## Congélation
-
-=== "Congélation-client"
-    ```
-    L'échantillon a été congelé par le client.
-    ```
-=== "Congélation à la réception"
-    ```
-    L'échantillon a été congelé à la réception au laboratoire afin de respecter le délai de conservation.
-    ```
-=== "Congélation-labo"
-    ```
-    L'échantillon a été congelé au laboratoire afin de respecter le délai de conservation.
-    ```
-
-## Anglais
-DBO congelé par le client
+## Bouteiiles différentes ou inversées
+Bouteilles différentes
 ```
-The sample the Biochemical Oxygen Demand analysis was frozen by the client.
+Les résultats de la Demande chimique en oxygène et de la Demande biochimique en oxygène ne respectent pas les critères de comparaison inter-paramètres. L'apparence de la matrice des deux bouteilles est différente
 ```
-DBO congelé par le laboratoire
+Bouteilles inversées
 ```
-The sample for Biochemical Oxygen Demand analysis was frozen upon receipt at the laboratory.
-```
-Azote ammoniacal à 25°C:
-```
-The result of un-ionized ammonia nitrogen was calculated at 25°C.
-```
-Azote ammoniacal à 25°C:
-```
-The result of non-ionized ammonia nitrogen was calculated at 25°C.
-```
-Votre eau est conforme aux normes pour les paramètres physico-chimiques analysés.
-```
-Your water complies with the standards for the physicochemical parameters analyzed.
+Les contenants semblent avoir été inversés par le client lors du prélèvement de l’affluent et de l’effluent pour le paramètre de XXX.
 ```
 
 ## DBO Tarkett

@@ -183,7 +183,7 @@ COV: Blanc est positif en 1,4-dichlorobenzène et 1,2-dichlorobenzène, mais auc
 ```
 MR non-conforme mono
 ```
-COV :  Le matériel de référence le Chlorure de vinyle est hors critères d'acceptabilité, mais aucun impact sur les résultats de l'échantillon.
+COV :  Le matériel de référence le Chlorure de vinyle est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
 ```
 MR non-conforme multi
 ```
@@ -250,14 +250,24 @@ Surrogates oiubliés:
 ```
 Hydrocarbures aromatiques polycycliques : À cause d'une erreur de manipulation les récupérations des étalons de recouvrement ne sont pas disponibles, mais aucun impact sur le résultat de l'échantillon.
 ```
-MR non conforme mono
-```
-Hydrocarbures aromatiques polycycliques:  Le matériel de référence le Dibenzo(a,l)pyrène est hors critères d'acceptabilité, mais aucun impact sur les résultats de l'échantillon.
-```
+MR HAP non conforme mono
+=== "Général"
+    ```
+    Hydrocarbures aromatiques polycycliques:  Le matériel de référence le Dibenzo(a,l)pyrène est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
+    ```
+=== "Dibenzo(a,l)pyrène"
+    ```
+    Hydrocarbures aromatiques polycycliques:  Le matériel de référence le Dibenzo(a,l)pyrène est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
+    ```
+=== "3-Méthylcholanthrène"
+    ```
+    Hydrocarbures aromatiques polycycliques:  Le matériel de référence le 3-Méthylcholanthrène est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
+    ```
 MR non conforme multi
 ```
 Hydrocarbures aromatiques polycycliques:  Les matériaux de référence le Dibenzo(a,l)pyrène et le Dibenzo(a,h)pyrène sont hors critères d'acceptabilité, mais aucun impact sur les résultats de l'échantillon.
 ```
+
 
 
 ## HGT et HGM
