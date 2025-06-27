@@ -311,3 +311,8 @@ Solvants Halogénés - MR non-conforme (trop fort)
 ```
 Solvants halogénés: Le matériel de référence est non-conforme (trop fort) le résultat de l’échantillon peut être surestimé.
 ```
+
+## Corps étrangers
+```
+Le rapport des corps étrangers est en annexe.
+```
