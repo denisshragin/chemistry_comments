@@ -28,7 +28,7 @@ Duplicata non conforme en raison de l’hétérogénéité de l’échantillon.
 Les résultats de XXX et de XXX ne respectent pas les critères de comparaison inter-paramètres. Les résultats des 2 analyses ont été confirmés en reprise.
 ```
 
-## Bouteiiles différentes ou inversées
+## Bouteilles différentes ou inversées
 Bouteilles différentes
 ```
 Les résultats de la Demande chimique en oxygène et de la Demande biochimique en oxygène ne respectent pas les critères de comparaison inter-paramètres. L'apparence de la matrice des deux bouteilles est différente

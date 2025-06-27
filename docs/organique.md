@@ -260,9 +260,17 @@ MR HAP non conforme mono
     ```
     Hydrocarbures aromatiques polycycliques:  Le matériel de référence le XXX est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
     ```
+=== "Dibenzo(a,i)pyrène"
+    ```
+    Hydrocarbures aromatiques polycycliques:  Le matériel de référence le Dibenzo(a,i)pyrène est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
+    ```
 === "Dibenzo(a,l)pyrène"
     ```
     Hydrocarbures aromatiques polycycliques:  Le matériel de référence le Dibenzo(a,l)pyrène est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
+    ```
+=== "Dibenzo(a,h)pyrène"
+    ```
+    Hydrocarbures aromatiques polycycliques:  Le matériel de référence le Dibenzo(a,h)pyrène est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
     ```
 === "3-Méthylcholanthrène"
     ```
