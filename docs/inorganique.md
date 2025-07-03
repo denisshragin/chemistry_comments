@@ -18,7 +18,6 @@
     L'analyse des Matières en suspension a été effectuée dans un délai dépassé.
     ```
 
-
 ## Filtration
 === "Général"
     ```
@@ -74,11 +73,29 @@ LR augmentées
     ```
     Phosphores totaux: La limite rapportée a été augmentée due à une interférence de la matrice.
     ```
-=== "Nitrites"
-    ```
-    Nitrites: La limite rapportée a été augmentée due à une interférence de la matrice.
-    ```
 === "Nitrates et Nitrites"
     ```
-    Nitrates et Nitrites: La limite rapportée a été augmentée due à une interférence de la matrice.
+    La limite rapportée a été augmentée due à une dilution de l'échantillon en raison de la matrice.
     ```
+=== "Nitrites"
+    ```
+    La limite rapportée a été augmentée due à une dilution de l'échantillon en raison de la matrice.
+    ```
+=== "Nitrates"
+    ```
+    La limite rapportée a été augmentée due à une dilution de l'échantillon en raison de la matrice.
+    ```
+
+## Anglais
+Azote ammoniacal à 25°C:
+```
+The result of un-ionized ammonia nitrogen was calculated at 25°C.
+```
+Azote ammoniacal à 25°C:
+```
+The result of non-ionized ammonia nitrogen was calculated at 25°C.
+```
+Votre eau est conforme aux normes pour les paramètres physico-chimiques analysés.
+```
+Your water complies with the standards for the physicochemical parameters analyzed.
+```
