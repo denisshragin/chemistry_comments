@@ -189,6 +189,9 @@ MR non-conforme multi
 ```
 COV :  Les matériaux de référence le Chlorure de vinyle, le Tétrachloroéthène et le Pentachloroéthane sont hors critères d'acceptabilité, mais aucun impact sur les résultats de l'échantillon.
 ```
+```
+COV: Les matériaux de référence le trans-1,3-Dichloropropène, le Dichlorodifluorométhane et le Hexachloroéthane sont hors critères d'acceptabilité, mais aucun impact sur les résultats de l'échantillon.
+```
 RQEP mono
 ```
 Composés organiques volatils Règ.EP D140:  Le matériel de référence le Chlorure de vinyle est hors critères d'acceptabilité, mais aucun impact sur les résultats de l'échantillon.
@@ -260,17 +263,21 @@ MR HAP non conforme mono
     ```
     Hydrocarbures aromatiques polycycliques:  Le matériel de référence le XXX est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
     ```
-=== "Dibenzo(a,i)pyrène"
+=== "le 7,12-Diméthylbenzo[a]anthracène"
     ```
-    Hydrocarbures aromatiques polycycliques:  Le matériel de référence le Dibenzo(a,i)pyrène est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
+    Hydrocarbures aromatiques polycycliques:  Le matériel de référence le 7,12-Diméthylbenzo[a]anthracène est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
     ```
-=== "Dibenzo(a,l)pyrène"
+=== "Dibenzo[a,i]pyrène"
     ```
-    Hydrocarbures aromatiques polycycliques:  Le matériel de référence le Dibenzo(a,l)pyrène est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
+    Hydrocarbures aromatiques polycycliques:  Le matériel de référence le Dibenzo[a,i]pyrène est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
     ```
-=== "Dibenzo(a,h)pyrène"
+=== "Dibenzo[a,l]pyrène"
     ```
-    Hydrocarbures aromatiques polycycliques:  Le matériel de référence le Dibenzo(a,h)pyrène est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
+    Hydrocarbures aromatiques polycycliques:  Le matériel de référence le Dibenzo[a,l]pyrène est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
+    ```
+=== "Dibenzo[a,h]pyrène"
+    ```
+    Hydrocarbures aromatiques polycycliques:  Le matériel de référence le Dibenzo[a,h]pyrène est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
     ```
 === "3-Méthylcholanthrène"
     ```
@@ -278,7 +285,7 @@ MR HAP non conforme mono
     ```
 MR non conforme multi
 ```
-Hydrocarbures aromatiques polycycliques:  Les matériaux de référence le Dibenzo(a,l)pyrène et le Dibenzo(a,h)pyrène sont hors critères d'acceptabilité, mais aucun impact sur les résultats de l'échantillon.
+Hydrocarbures aromatiques polycycliques:  Les matériaux de référence le Dibenzo[a,l]pyrène et le Dibenzo[a,h]pyrène sont hors critères d'acceptabilité, mais aucun impact sur les résultats de l'échantillon.
 ```
 
 

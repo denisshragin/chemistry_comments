@@ -140,3 +140,10 @@ L'échantillon pour l'analyse de la Demande biochimique en oxygène a été cong
     The sample for Biochemical Oxygen Demand analysis was frozen by the client.
     The sample for Biochemical Oxygen Demand analysis was frozen upon reception at the laboratory.
     ```
+
+### Conditions de conservations sont non-conformes:
+
+Conservation à la température ambiante
+```
+Demande biochimique en oxygène totale: Notez que les conditions de conservation au laboratoire n'ont pas été respectés, car l'échantillon a été conservé à la température ambiante de la réception jusqu'à l'analyse. Le résultat a été remis à la demande du client.
+```

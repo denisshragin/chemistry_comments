@@ -119,3 +119,20 @@ Métaux solubles à l'acide: Blanc est positif en Sélénium, mais aucun impact 
 ```
 Les analyses de cet échantillon ont été faites en dérogation selon les recommandations de la méthode fédérale dans un cadre non accrédité selon le MELCCFP.
 ```
+
+### Métaux gaz/frottis
+
+mg/m3.
+
+```
+Le résultat du Mercure : <0.0014 mg/m3;
+Le résultat du Plomb : 0.2853 mg/m3;
+```
+
+mg/m2
+
+```
+Le résultat du Mercure : <0.0054 mg/m2;
+Le résultat du Plomb : 0.2853 mg/m2;
+```
+
