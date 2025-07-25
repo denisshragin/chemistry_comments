@@ -28,6 +28,29 @@ Température mesurée par le client: * °C.
     ```
     L'analyse de la Demande biochimique en oxygène a été effectuée dans un délai dépassé.
     ```
+=== "C10C50 et HAP"
+    ```
+    Les analyses des Hydrocarbures aromatiques polycycliques et des Hydrocarbures Pétroliers (C10-C50) ont été effectuées dans un délai dépassé.
+    ```
+=== "Oxygène dissous"
+    ```
+    L'analyse de l'Oxygène dissous a été effectuée dans un délai dépassé.
+    ```
+=== "Nitrites et Nitrates"
+    ```
+    L'analyse des Nitrites et Nitrates a été effectuée dans un délai dépassé.
+    ```
+=== "Orthophosphates"
+    ```
+    L'analyse des Orthophosphates a été effectuée dans un délai dépassé.
+    ```
+
+## Délai de conservation dépassé DBO
+
+=== "DBO"
+    ```
+    L'analyse de la Demande biochimique en oxygène a été effectuée dans un délai dépassé.
+    ```
 === "DBOc"
     ```
     L'analyse de la Demande biochimique en oxygène carbonée a été effectuée dans un délai dépassé.
@@ -44,9 +67,9 @@ Température mesurée par le client: * °C.
     ```
     L'analyse de la Demande biochimique en oxygène dissous a été effectuée dans un délai dépassé.
     ```
-=== "C10C50 et HAP"
+=== "Oxygène dissous"
     ```
-    Les analyses des Hydrocarbures aromatiques polycycliques et des Hydrocarbures Pétroliers (C10-C50) ont été effectuées dans un délai dépassé.
+    L'analyse de l'Oxygène dissous a été effectuée dans un délai dépassé.
     ```
 
 ## Filtration par le client

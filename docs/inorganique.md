@@ -17,6 +17,18 @@
     ```
     L'analyse des Matières en suspension a été effectuée dans un délai dépassé.
     ```
+=== "Oxygène dissous"
+    ```
+    L'analyse de l'Oxygène dissous a été effectuée dans un délai dépassé.
+    ```
+=== "Nitrites et Nitrates"
+    ```
+    L'analyse des Nitrites et Nitrates a été effectuée dans un délai dépassé.
+    ```
+=== "Orthophosphates"
+    ```
+    L'analyse des Orthophosphates a été effectuée dans un délai dépassé.
+    ```
 
 ## Filtration
 === "Général"

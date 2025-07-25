@@ -22,7 +22,10 @@
     ```
     L'analyse de la Demande biochimique en oxygène carbonée et dissous a été effectuée dans un délai dépassé.
     ```
-
+=== "Oxygène dissous"
+    ```
+    L'analyse de l'Oxygène dissous a été effectuée dans un délai dépassé.
+    ```
 ## Congélation labo 
 
 === "DBO"
