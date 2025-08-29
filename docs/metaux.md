@@ -18,7 +18,7 @@ Masse insuffisante
 Lixiviation TCLP: Masse insuffisante pour le pré-test.
 ```
 
-## pH ajousté
+## pH ajusté
 === "Métaux extractibles"
     ```
     Métaux extractibles: Agent de conservation insuffisant, pH ajusté au laboratoire.
