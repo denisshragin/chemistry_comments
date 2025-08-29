@@ -82,16 +82,16 @@ L'échantillon pour l'analyse des Métaux dissous a été filtré et préservé 
 ## Type de captage
 
 === "Puits de surface"
-    ``` 
+    ```
     Type de captage: Puits de surface.
     ```
 === "Puits"
     ```
-    LType de captage: Puits.
+    Type de captage: Puits.
     ```
 === "Puits tubulaire"
     ```
-   Type de captage: Puits tubulaire.
+    Type de captage: Puits tubulaire.
     ```
 
 ## Échantillon - congélation 
