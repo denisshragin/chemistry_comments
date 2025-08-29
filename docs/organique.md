@@ -183,9 +183,23 @@ Blanc positif - pas d'impact
 COV: Blanc est positif en 1,4-dichlorobenzène et 1,2-dichlorobenzène, mais aucun impact sur les résultats de l'échantillon.
 ```
 MR non-conforme mono
-```
-COV :  Le matériel de référence le Chlorure de vinyle est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
-```
+=== "Général"
+    ```
+    COV :  Le matériau de référence le XXX est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
+    ```
+=== "Chlorure de vinyle"
+    ```
+    COV :  Le matériau de référence le Chlorure de vinyle est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
+    ```
+=== "Pentachloroéthane"
+    ```
+    COV :  Le matériau de référence le Pentachloroéthane est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
+    ```
+=== "Tetrachloroéthane"
+    ```
+    COV :  Le matériau de référence le Tetrachloroéthane est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
+    ```
+
 MR non-conforme multi
 ```
 COV :  Les matériaux de référence le Chlorure de vinyle, le Tétrachloroéthène et le Pentachloroéthane sont hors critères d'acceptabilité, mais aucun impact sur les résultats de l'échantillon.
@@ -194,9 +208,15 @@ COV :  Les matériaux de référence le Chlorure de vinyle, le Tétrachloroéth�
 COV: Les matériaux de référence le trans-1,3-Dichloropropène, le Dichlorodifluorométhane et le Hexachloroéthane sont hors critères d'acceptabilité, mais aucun impact sur les résultats de l'échantillon.
 ```
 RQEP mono
-```
-Composés organiques volatils Règ.EP D140:  Le matériel de référence le Chlorure de vinyle est hors critères d'acceptabilité, mais aucun impact sur les résultats de l'échantillon.
-```
+
+=== "Chlorure de vinyle"
+    ```
+    Composés organiques volatils Règ.EP D140:  Le matériau de référence le Chlorure de vinyle est hors critères d'acceptabilité, mais aucun impact sur les résultats de l'échantillon.
+    ```
+=== "Tétrachloroéthène"
+    ```
+    Composés organiques volatils Règ.EP D140:  Le matériau de référence le Tétrachloroéthène est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
+    ```
 RQEP multi
 ```
 Composés organiques volatils Règ.EP D140:  Les matériaux de référence le Chlorure de vinyle et le Tétrachloroéthène sont hors critères d'acceptabilité, mais aucun impact sur les résultats de l'échantillon.
@@ -207,9 +227,13 @@ C10-C50, Erreur de manipulation
 ```
 Hydrocarbures Pétroliers (C10-C50): À cause d'une erreur de manipulation la meilleure limite rapportée ne peut pas être fournie.
 ```
+C10-C50, contamination interne possible, LR augmentée
+```
+Hydrocarbures Pétroliers (C10-C50): La limite rapportée a été augmentée due à une contamination interne possible. Résultat remis à la demande du client.
+```
 C10-C50, MR non-conforme (trop fort):
 ```
-Hydrocarbures Pétroliers (C10-C50): Le matériel de référence est non-conforme (trop fort), le résultat de l'échantillon peut être surestimé.
+Hydrocarbures Pétroliers (C10-C50): Le matériau de référence est non-conforme (trop fort), le résultat de l'échantillon peut être surestimé.
 ```
 HAP, LR augmentées
 ```
@@ -231,7 +255,7 @@ Hydrocarbures aromatiques polycycliques : Les étalons de recouvrement sont non 
 ```
 HAP, MR non-conforme (trop fort)
 ```
-Hydrocarbures aromatiques polycycliques: Le matériel de référence est non-conforme (trop fort) pour le 7,12-diméthylbenzo(a)anthracène, le Benzo(e)pyrène, le Benzo(a)pyrène, le Dibenzo(a, h)antracène et le Dibenzo(a, h)pyrène. Le résultat de l’échantillon peut être surestimé pour ces composés.
+Hydrocarbures aromatiques polycycliques: Le matériau de référence est non-conforme (trop fort) pour le 7,12-diméthylbenzo(a)anthracène, le Benzo(e)pyrène, le Benzo(a)pyrène, le Dibenzo(a, h)antracène et le Dibenzo(a, h)pyrène. Le résultat de l’échantillon peut être surestimé pour ces composés.
 ```
 HAP, Dilution excessive
 ```
@@ -251,32 +275,45 @@ Hydrocarbures aromatiques polycycliques : À cause d'une erreur de manipulation 
 MR HAP non conforme mono
 === "Général"
     ```
-    Hydrocarbures aromatiques polycycliques:  Le matériel de référence le XXX est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
+    Hydrocarbures aromatiques polycycliques:  Le matériau de référence le XXX est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
     ```
 === "7,12-Diméthylbenzo[a]anthracène"
     ```
-    Hydrocarbures aromatiques polycycliques:  Le matériel de référence le 7,12-Diméthylbenzo[a]anthracène est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
+    Hydrocarbures aromatiques polycycliques:  Le matériau de référence le 7,12-Diméthylbenzo[a]anthracène est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
     ```
 === "Dibenzo[a,i]pyrène"
     ```
-    Hydrocarbures aromatiques polycycliques:  Le matériel de référence le Dibenzo[a,i]pyrène est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
+    Hydrocarbures aromatiques polycycliques:  Le matériau de référence le Dibenzo[a,i]pyrène est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
     ```
 === "Dibenzo[a,l]pyrène"
     ```
-    Hydrocarbures aromatiques polycycliques:  Le matériel de référence le Dibenzo[a,l]pyrène est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
+    Hydrocarbures aromatiques polycycliques:  Le matériau de référence le Dibenzo[a,l]pyrène est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
     ```
 === "Dibenzo[a,h]pyrène"
     ```
-    Hydrocarbures aromatiques polycycliques:  Le matériel de référence le Dibenzo[a,h]pyrène est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
+    Hydrocarbures aromatiques polycycliques:  Le matériau de référence le Dibenzo[a,h]pyrène est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
     ```
 === "3-Méthylcholanthrène"
     ```
-    Hydrocarbures aromatiques polycycliques:  Le matériel de référence le 3-Méthylcholanthrène est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
+    Hydrocarbures aromatiques polycycliques:  Le matériau de référence le 3-Méthylcholanthrène est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
     ```
 MR non conforme multi
-```
-Hydrocarbures aromatiques polycycliques:  Les matériaux de référence le Dibenzo[a,l]pyrène et le Dibenzo[a,h]pyrène sont hors critères d'acceptabilité, mais aucun impact sur les résultats de l'échantillon.
-```
+=== "Général"
+    ```
+    Hydrocarbures aromatiques polycycliques: Les matériaux de référence le XXX et le YYY sont hors critères d'acceptabilité, mais aucun impact sur les résultats de l'échantillon.
+    ```
+=== "[a,l] et [a,h]"
+    ```
+    Hydrocarbures aromatiques polycycliques: Les matériaux de référence le Dibenzo[a,l]pyrène et le Dibenzo[a,h]pyrène sont hors critères d'acceptabilité, mais aucun impact sur les résultats de l'échantillon.
+    ```
+=== "[a,i] et [a,h]"
+    ```
+    Hydrocarbures aromatiques polycycliques: Les matériaux de référence le Dibenzo[a,i]pyrène et le Dibenzo[a,h]pyrène sont hors critères d'acceptabilité, mais aucun impact sur les résultats de l'échantillon.
+    ```
+=== "7,12 et [a,h]"
+    ```
+    Hydrocarbures aromatiques polycycliques: Les matériaux de référence le 7,12-Diméthylbenzo[a]anthracène et le Dibenzo[a,h]pyrène sont hors critères d'acceptabilité, mais aucun impact sur les résultats de l'échantillon.
+    ```
 
 
 
@@ -306,7 +343,7 @@ Hydrocarbures volatils C1-C6: Présence d’une contamination non-identifiable s
 ### MR non-conforme
 Solvants Halogénés - MR non-conforme (trop fort)
 ```
-Solvants halogénés: Le matériel de référence est non-conforme (trop fort) le résultat de l’échantillon peut être surestimé.
+Solvants halogénés: Le matériau de référence est non-conforme (trop fort) le résultat de l’échantillon peut être surestimé.
 ```
 
 ## Corps étrangers

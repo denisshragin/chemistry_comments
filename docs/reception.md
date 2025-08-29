@@ -79,6 +79,20 @@ Métaux dissous -- filtration sur le terrain:
 L'échantillon pour l'analyse des Métaux dissous a été filtré et préservé sur le terrain.
 ```
 
+## Type de captage
+=== "Puits de surface."
+```
+Type de captage : Puits de surface.
+```
+=== "Puits"
+```
+Type de captage : Puits.
+```
+=== "Puits tubulaire"
+```
+Type de captage : Puits tubulaire.
+```
+
 ## Échantillon - congélation 
 === "Congélation-client"
     ``` 

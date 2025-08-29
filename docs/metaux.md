@@ -12,20 +12,36 @@
     ```
     L'échantillon pour l'analyse des Métaux dissous a été filtré et préservé au laboratoire dans un délai dépassé.
     ```
+### Lixiviation
+Masse insuffisante
+```
+Lixiviation TCLP: Masse insuffisante pour le pré-test.
+```
+
+## pH ajousté
+=== "Métaux extractibles"
+    ```
+    Métaux extractibles: Agent de conservation insuffisant, pH ajusté au laboratoire.
+    ```
+=== "Métaux solubles à l'acide"
+    ```
+    Métaux solubles à l'acide: Agent de conservation insuffisant, pH ajusté au laboratoire.
+    ```
+
 
 ### MR non-conforme
 #### Métaux extractibles mono-paramètre
 === "Métaux extractibles, mono-paramètre"
     ```
-    Métaux extractibles: Le matériel de référence le XXX est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
+    Métaux extractibles: Le matériau de référence le XXX est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
     ```
 === "Métaux extractibles, Argent"
     ```
-    Métaux extractibles: Le matériel de référence l'Argent est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
+    Métaux extractibles: Le matériau de référence l'Argent est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
     ```
 === "Métaux extractibles, Manganèse"
     ```
-    Métaux extractibles: Le matériel de référence le Manganèse est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
+    Métaux extractibles: Le matériau de référence le Manganèse est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
     ```
 #### Métaux extractibles multi-paramètres
 === "Métaux extractibles, multi-paramètres"
@@ -40,15 +56,15 @@
 #### Métaux solubles à l'acide, mono-paramètre
 === "Métaux solubles à l'acide, mono-paramètre"
     ```
-    Métaux solubles à l'acide: Le matériel de référence le XXX est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
+    Métaux solubles à l'acide: Le matériau de référence le XXX est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
     ```
 === "Métaux solubles à l'acide, Baryum"
     ```
-    Métaux solubles à l'acide: Le matériel de référence le Baryum est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
+    Métaux solubles à l'acide: Le matériau de référence le Baryum est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
     ```
 === "Métaux solubles à l'acide, Bore"
     ```
-    Métaux solubles à l'acide: Le matériel de référence le Bore est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
+    Métaux solubles à l'acide: Le matériau de référence le Bore est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
     ```
 #### Métaux solubles à l'acide multi-paramètres
 === "Métaux solubles à l'acide, multi-paramètres"
@@ -63,15 +79,15 @@
 #### Métaux dissous, mono-paramètre
 === "Métaux dissous, mono-paramètre"
     ```
-    Métaux dissous: Le matériel de référence le XXX est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
+    Métaux dissous: Le matériau de référence le XXX est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
     ```
 === "Métaux dissous, Baryum"
     ```
-    Métaux dissous: Le matériel de référence le Baryum est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
+    Métaux dissous: Le matériau de référence le Baryum est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
     ```
 === "Métaux dissous, Bore"
     ```
-    Métaux dissous: Le matériel de référence le Bore est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
+    Métaux dissous: Le matériau de référence le Bore est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
     ```
 #### Métaux dissous multi-paramètres
 === "Métaux dissous, multi-paramètres"
