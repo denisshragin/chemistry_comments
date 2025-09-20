@@ -52,6 +52,10 @@ Lixiviation TCLP: Masse insuffisante pour le pré-test.
     ```
     Métaux extractibles: Les matériaux de référence l'Argent et le Manganèse sont hors critères d'acceptabilité, mais aucun impact sur les résultats de l'échantillon.
     ```
+=== "As et Hg"
+    ```
+    Métaux extractibles: Les matériaux de référence l'Arsenic et le Mercure sont hors critères d'acceptabilité, mais aucun impact sur les résultats de l'échantillon.
+    ```
 
 #### Métaux solubles à l'acide, mono-paramètre
 === "Métaux solubles à l'acide, mono-paramètre"

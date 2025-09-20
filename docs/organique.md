@@ -185,24 +185,28 @@ COV: Blanc est positif en 1,4-dichlorobenzène et 1,2-dichlorobenzène, mais auc
 MR non-conforme mono
 === "Général"
     ```
-    COV :  Le matériau de référence le XXX est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
+    COV:  Le matériau de référence le XXX est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
     ```
 === "Chlorure de vinyle"
     ```
-    COV :  Le matériau de référence le Chlorure de vinyle est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
+    COV:  Le matériau de référence le Chlorure de vinyle est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
     ```
 === "Pentachloroéthane"
     ```
-    COV :  Le matériau de référence le Pentachloroéthane est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
+    COV:  Le matériau de référence le Pentachloroéthane est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
     ```
-=== "Tetrachloroéthane"
+=== "Tétrachloroéthène"
     ```
-    COV :  Le matériau de référence le Tetrachloroéthane est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
+    COV:  Le matériau de référence le Tétrachloroéthène est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
+    ```
+=== "Tétrachloroéthane"
+    ```
+    COV:  Le matériau de référence le Tétrachloroéthane est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
     ```
 
 MR non-conforme multi
 ```
-COV :  Les matériaux de référence le Chlorure de vinyle, le Tétrachloroéthène et le Pentachloroéthane sont hors critères d'acceptabilité, mais aucun impact sur les résultats de l'échantillon.
+COV:  Les matériaux de référence le Chlorure de vinyle, le Tétrachloroéthène et le Pentachloroéthane sont hors critères d'acceptabilité, mais aucun impact sur les résultats de l'échantillon.
 ```
 ```
 COV: Les matériaux de référence le trans-1,3-Dichloropropène, le Dichlorodifluorométhane et le Hexachloroéthane sont hors critères d'acceptabilité, mais aucun impact sur les résultats de l'échantillon.

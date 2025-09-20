@@ -26,6 +26,29 @@
     ```
     L'analyse de l'Oxygène dissous a été effectuée dans un délai dépassé.
     ```
+## Congélation client
+
+=== "Général"
+    ```
+    L'échantillon pour l'analyse de la Demande biochimique en oxygène a été congelé par le client. 
+    ```
+=== "DBOt"
+    ```
+    L'échantillon pour l'analyse de la Demande biochimique en oxygène totale a été congelé par le client. 
+    ```
+=== "DBOc"
+    ```
+    L'échantillon pour l'analyse de la Demande biochimique en oxygène carbonée a été congelé par le client. 
+    ```
+=== "DBOd"
+    ```
+    L'échantillon pour l'analyse de la Demande biochimique en oxygène dissous a été congelé par le client. 
+    ```
+=== "DBOc et d"
+    ```
+    L'échantillon pour l'analyse de la Demande biochimique en oxygène carbonée et dissous a été congelé par le client. 
+    ```
+
 ## Congélation labo 
 
 === "DBO"
@@ -49,25 +72,38 @@
     L'échantillon pour l'analyse de la Demande biochimique en oxygène carbonée et dissous a été congelé à la réception au laboratoire. 
     ```
 
-## DBO reçue décongelée
-```
-L'échantillon pour l'analyse de la Demande biochimique en oxygène a été congelé par le client, mais a été reçu décongelé.
-```
-
-## Congélation (commentaire général)
-=== "DBO congélation-client"
-    ```
-    L'échantillon pour l'analyse de la Demande biochimique en oxygène a été congelé par le client. 
-    ```
-=== "DBO congélation-labo"
-    ```
-    L'échantillon pour l'analyse de la Demande biochimique en oxygène a été congelé à la réception au laboratoire. 
-    ```
-=== "DBO congélation-client et labo"
+## Congélation client/labo 
+=== "Général"
     ```
     L'échantillon pour l'analyse de la Demande biochimique en oxygène a été congelé par le client.
     L'échantillon pour l'analyse de la Demande biochimique en oxygène a été congelé à la réception au laboratoire. 
     ```
+=== "DBOt"
+    ```
+    L'échantillon pour l'analyse de la Demande biochimique en oxygène totale a été congelé par le client.
+    L'échantillon pour l'analyse de la Demande biochimique en oxygène totale a été congelé à la réception au laboratoire.
+    ```
+=== "DBOc"
+    ```
+    L'échantillon pour l'analyse de la Demande biochimique en oxygène carbonée a été congelé par le client.
+    L'échantillon pour l'analyse de la Demande biochimique en oxygène carbonée a été congelé à la réception au laboratoire. 
+    ```
+=== "DBOd"
+    ```
+    L'échantillon pour l'analyse de la Demande biochimique en oxygène dissous a été congelé par le client.
+    L'échantillon pour l'analyse de la Demande biochimique en oxygène dissous a été congelé à la réception au laboratoire. 
+    ```
+=== "DBOc et d"
+    ```
+    L'échantillon pour l'analyse de la Demande biochimique en oxygène carbonée et dissous a été congelé par le client.
+    L'échantillon pour l'analyse de la Demande biochimique en oxygène carbonée et dissous a été congelé à la réception au laboratoire. 
+    ```
+
+
+## DBO reçue décongelée
+```
+L'échantillon pour l'analyse de la Demande biochimique en oxygène a été congelé par le client, mais a été reçu décongelé.
+```
 
 ## Analyse en reprise sur un échantillon congelé:
 
@@ -92,7 +128,7 @@ L'échantillon pour l'analyse de la Demande biochimique en oxygène a été cong
     L'analyse de la Demande biochimique en oxygène carbonée et dissous a été effectuée en reprise sur un échantillon congelé.
     ```
 
-## Congélation au labo + Analyse en reprise
+## Congélation au labo + analyse en reprise
 === "DBO"
     ```
     L'échantillon pour l'analyse de la Demande biochimique en oxygène a été congelé à la réception au laboratoire. 
@@ -130,18 +166,74 @@ L'échantillon pour l'analyse de la Demande biochimique en oxygène a été cong
     ```
 
 ## Anglais
-=== "BOD frozen-client"
+
+### Frozen-client
+=== "BOD "
     ```
     The sample for Biochemical Oxygen Demand analysis was frozen by the client.
     ```
+=== "Total"
+    ```
+    The sample for Total Biochemical Oxygen Demand analysis was frozen by the client.
+    ```
+=== "Carbo"
+    ```
+    The sample for Carbonaceous Biochemical Oxygen Demand analysis was frozen by the client.
+    ```
+=== "Dissolved"
+    ```
+    The sample for Dissolved Biochemical Oxygen Demand analysis was frozen by the client.
+    ```
+=== "Carbo et dissolved"
+    ```
+    The sample for Dissolved Carbonaceous Biochemical Oxygen Demand analysis was frozen by the client.
+    ```
+
+### Frozen-lab
+
 === "BOD frozen-lab"
     ```
     The sample for Biochemical Oxygen Demand analysis was frozen upon reception at the laboratory.
     ```
-=== "BOD frozen-client and frozen-lab"
+=== "Total"
+    ```
+    The sample for Total Biochemical Oxygen Demand analysis was frozen upon reception at the laboratory.
+    ```
+=== "Carbonaceous"
+    ```
+    The sample for Carbonaceous Biochemical Oxygen Demand analysis was frozen upon reception at the laboratory.
+    ```
+=== "Dissolved"
+    ```
+    The sample for Dissolved Biochemical Oxygen Demand analysis was frozen upon reception at the laboratory.
+    ```
+=== "Carbonaceous et dissolved"
+    ```
+    The sample for Dissolved Carbonaceous Biochemical Oxygen Demand analysis was frozen upon reception at the laboratory.
+    ```
+
+### Frozen-client/lab
+=== "General"
     ```
     The sample for Biochemical Oxygen Demand analysis was frozen by the client.
     The sample for Biochemical Oxygen Demand analysis was frozen upon reception at the laboratory.
+    ```
+=== "Total"
+    ```
+    The sample for Total Biochemical Oxygen Demand analysis was frozen by the client.
+    The sample for Total Biochemical Oxygen Demand analysis was frozen upon reception at the laboratory.
+    ```
+=== "Carbonaceous"
+    ```
+    The sample for Carbonaceous Biochemical Oxygen Demand analysis was frozen by the client.
+    The sample for Carbonaceous Biochemical Oxygen Demand analysis was frozen upon reception at the laboratory.
+    ```
+
+
+### Repeat test
+=== "BOD retest"
+    ```
+    The Biochemical Oxygen Demand analysis was performed as a repeat test on a frozen sample.
     ```
 
 ### Conditions de conservations sont non-conformes:
