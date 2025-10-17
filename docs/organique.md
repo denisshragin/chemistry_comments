@@ -176,7 +176,7 @@ COV : Analyse effectuée sur un échantillon prélevé dans un pot de verre sans
 ```
 Humidité élevé et masse insuffisante
 ```
-COV :  En raison d'un pourcentage d'humidité élevé et d'un poids d'extraction insuffisant, les limites rapportées ont été augmentées.
+COV : En raison d'un pourcentage d'humidité élevé et d'un poids d'extraction insuffisant, les limites rapportées ont été augmentées.
 ```
 Blanc positif - pas d'impact
 ```
@@ -185,28 +185,28 @@ COV : Blanc est positif en 1,4-dichlorobenzène et 1,2-dichlorobenzène, mais au
 MR non-conforme mono
 === "Général"
     ```
-    COV :  Le matériau de référence le XXX est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
+    COV : Le matériau de référence le XXX est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
     ```
 === "Chlorure de vinyle"
     ```
-    COV :  Le matériau de référence le Chlorure de vinyle est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
+    COV : Le matériau de référence le Chlorure de vinyle est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
     ```
 === "Pentachloroéthane"
     ```
-    COV :  Le matériau de référence le Pentachloroéthane est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
+    COV : Le matériau de référence le Pentachloroéthane est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
     ```
 === "Tétrachloroéthène"
     ```
-    COV :  Le matériau de référence le Tétrachloroéthène est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
+    COV : Le matériau de référence le Tétrachloroéthène est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
     ```
 === "Tétrachloroéthane"
     ```
-    COV :  Le matériau de référence le Tétrachloroéthane est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
+    COV : Le matériau de référence le Tétrachloroéthane est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
     ```
 
 MR non-conforme multi
 ```
-COV :  Les matériaux de référence le Chlorure de vinyle, le Tétrachloroéthène et le Pentachloroéthane sont hors critères d'acceptabilité, mais aucun impact sur les résultats de l'échantillon.
+COV : Les matériaux de référence le Chlorure de vinyle, le Tétrachloroéthène et le Pentachloroéthane sont hors critères d'acceptabilité, mais aucun impact sur les résultats de l'échantillon.
 ```
 ```
 COV : Les matériaux de référence le trans-1,3-Dichloropropène, le Dichlorodifluorométhane et le Hexachloroéthane sont hors critères d'acceptabilité, mais aucun impact sur les résultats de l'échantillon.
@@ -215,15 +215,15 @@ RQEP mono
 
 === "Chlorure de vinyle"
     ```
-    Composés organiques volatils Règ.EP D140 :  Le matériau de référence le Chlorure de vinyle est hors critères d'acceptabilité, mais aucun impact sur les résultats de l'échantillon.
+    Composés organiques volatils Règ.EP D140 : Le matériau de référence le Chlorure de vinyle est hors critères d'acceptabilité, mais aucun impact sur les résultats de l'échantillon.
     ```
 === "Tétrachloroéthène"
     ```
-    Composés organiques volatils Règ.EP D140 :  Le matériau de référence le Tétrachloroéthène est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
+    Composés organiques volatils Règ.EP D140 : Le matériau de référence le Tétrachloroéthène est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
     ```
 RQEP multi
 ```
-Composés organiques volatils Règ.EP D140 :  Les matériaux de référence le Chlorure de vinyle et le Tétrachloroéthène sont hors critères d'acceptabilité, mais aucun impact sur les résultats de l'échantillon.
+Composés organiques volatils Règ.EP D140 : Les matériaux de référence le Chlorure de vinyle et le Tétrachloroéthène sont hors critères d'acceptabilité, mais aucun impact sur les résultats de l'échantillon.
 ```
 
 ## C10-C50 et HAP
@@ -279,27 +279,27 @@ Hydrocarbures aromatiques polycycliques : À cause d'une erreur de manipulation 
 MR HAP non conforme mono
 === "Général"
     ```
-    Hydrocarbures aromatiques polycycliques :  Le matériau de référence le XXX est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
+    Hydrocarbures aromatiques polycycliques : Le matériau de référence le XXX est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
     ```
 === "7,12-Diméthylbenzo[a]anthracène"
     ```
-    Hydrocarbures aromatiques polycycliques :  Le matériau de référence le 7,12-Diméthylbenzo[a]anthracène est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
+    Hydrocarbures aromatiques polycycliques : Le matériau de référence le 7,12-Diméthylbenzo[a]anthracène est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
     ```
 === "Dibenzo[a,i]pyrène"
     ```
-    Hydrocarbures aromatiques polycycliques :  Le matériau de référence le Dibenzo[a,i]pyrène est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
+    Hydrocarbures aromatiques polycycliques : Le matériau de référence le Dibenzo[a,i]pyrène est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
     ```
 === "Dibenzo[a,l]pyrène"
     ```
-    Hydrocarbures aromatiques polycycliques :  Le matériau de référence le Dibenzo[a,l]pyrène est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
+    Hydrocarbures aromatiques polycycliques : Le matériau de référence le Dibenzo[a,l]pyrène est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
     ```
 === "Dibenzo[a,h]pyrène"
     ```
-    Hydrocarbures aromatiques polycycliques :  Le matériau de référence le Dibenzo[a,h]pyrène est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
+    Hydrocarbures aromatiques polycycliques : Le matériau de référence le Dibenzo[a,h]pyrène est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
     ```
 === "3-Méthylcholanthrène"
     ```
-    Hydrocarbures aromatiques polycycliques :  Le matériau de référence le 3-Méthylcholanthrène est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
+    Hydrocarbures aromatiques polycycliques : Le matériau de référence le 3-Méthylcholanthrène est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
     ```
 MR non conforme multi
 === "Général"
