@@ -2,7 +2,7 @@
 
 ## Commentaires
 ```
-Température mesurée par le client: * °C.
+Température mesurée par le client : * °C.
 ```
 
 ```
@@ -95,7 +95,7 @@ Autorisation à transmettre les résultats d'analyses aux préleveurs.
 
 ## Filtration par le client
 
-Métaux dissous -- filtration sur le terrain:
+Métaux dissous -- filtration sur le terrain :
 ```
 L'échantillon pour l'analyse des Métaux dissous a été filtré et préservé sur le terrain.
 ```
@@ -104,15 +104,15 @@ L'échantillon pour l'analyse des Métaux dissous a été filtré et préservé 
 
 === "Puits de surface"
     ```
-    Type de captage: Puits de surface.
+    Type de captage : Puits de surface.
     ```
 === "Puits"
     ```
-    Type de captage: Puits.
+    Type de captage : Puits.
     ```
 === "Puits tubulaire"
     ```
-    Type de captage: Puits tubulaire.
+    Type de captage : Puits tubulaire.
     ```
 
 ## Échantillon - congélation 

@@ -15,17 +15,17 @@
 ### Lixiviation
 Masse insuffisante
 ```
-Lixiviation TCLP: Masse insuffisante pour le pré-test.
+Lixiviation TCLP : Masse insuffisante pour le pré-test.
 ```
 
 ## pH ajusté
 === "Métaux extractibles"
     ```
-    Métaux extractibles: Agent de conservation insuffisant, pH ajusté au laboratoire.
+    Métaux extractibles : Agent de conservation insuffisant, pH ajusté au laboratoire.
     ```
 === "Métaux solubles à l'acide"
     ```
-    Métaux solubles à l'acide: Agent de conservation insuffisant, pH ajusté au laboratoire.
+    Métaux solubles à l'acide : Agent de conservation insuffisant, pH ajusté au laboratoire.
     ```
 
 
@@ -33,96 +33,96 @@ Lixiviation TCLP: Masse insuffisante pour le pré-test.
 #### Métaux extractibles mono-paramètre
 === "Métaux extractibles, mono-paramètre"
     ```
-    Métaux extractibles: Le matériau de référence le XXX est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
+    Métaux extractibles : Le matériau de référence le XXX est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
     ```
 === "Métaux extractibles, Argent"
     ```
-    Métaux extractibles: Le matériau de référence l'Argent est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
+    Métaux extractibles : Le matériau de référence l'Argent est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
     ```
 === "Métaux extractibles, Manganèse"
     ```
-    Métaux extractibles: Le matériau de référence le Manganèse est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
+    Métaux extractibles : Le matériau de référence le Manganèse est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
     ```
 #### Métaux extractibles multi-paramètres
 === "Métaux extractibles, multi-paramètres"
     ```
-    Métaux extractibles: Les matériaux de référence le XXX, le YYY et le ZZZ sont hors critères d'acceptabilité, mais aucun impact sur les résultats de l'échantillon.
+    Métaux extractibles : Les matériaux de référence le XXX, le YYY et le ZZZ sont hors critères d'acceptabilité, mais aucun impact sur les résultats de l'échantillon.
     ```
 === "Métaux extractibles, Argent et Manganèse"
     ```
-    Métaux extractibles: Les matériaux de référence l'Argent et le Manganèse sont hors critères d'acceptabilité, mais aucun impact sur les résultats de l'échantillon.
+    Métaux extractibles : Les matériaux de référence l'Argent et le Manganèse sont hors critères d'acceptabilité, mais aucun impact sur les résultats de l'échantillon.
     ```
 === "As et Hg"
     ```
-    Métaux extractibles: Les matériaux de référence l'Arsenic et le Mercure sont hors critères d'acceptabilité, mais aucun impact sur les résultats de l'échantillon.
+    Métaux extractibles : Les matériaux de référence l'Arsenic et le Mercure sont hors critères d'acceptabilité, mais aucun impact sur les résultats de l'échantillon.
     ```
 
 #### Métaux solubles à l'acide, mono-paramètre
 === "Métaux solubles à l'acide, mono-paramètre"
     ```
-    Métaux solubles à l'acide: Le matériau de référence le XXX est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
+    Métaux solubles à l'acide : Le matériau de référence le XXX est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
     ```
 === "Métaux solubles à l'acide, Baryum"
     ```
-    Métaux solubles à l'acide: Le matériau de référence le Baryum est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
+    Métaux solubles à l'acide : Le matériau de référence le Baryum est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
     ```
 === "Métaux solubles à l'acide, Bore"
     ```
-    Métaux solubles à l'acide: Le matériau de référence le Bore est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
+    Métaux solubles à l'acide : Le matériau de référence le Bore est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
     ```
 #### Métaux solubles à l'acide multi-paramètres
 === "Métaux solubles à l'acide, multi-paramètres"
     ```
-    Métaux solubles à l'acide: Les matériaux de référence le XXX, le YYY et le ZZZ sont hors critères d'acceptabilité, mais aucun impact sur les résultats de l'échantillon.
+    Métaux solubles à l'acide : Les matériaux de référence le XXX, le YYY et le ZZZ sont hors critères d'acceptabilité, mais aucun impact sur les résultats de l'échantillon.
     ```
 === "Métaux solubles à l'acide, Baryum et Bore"
     ```
-    Métaux solubles à l'acide: Les matériaux de référence l'Argent et le Manganèse sont hors critères d'acceptabilité, mais aucun impact sur les résultats de l'échantillon.
+    Métaux solubles à l'acide : Les matériaux de référence l'Argent et le Manganèse sont hors critères d'acceptabilité, mais aucun impact sur les résultats de l'échantillon.
     ```
 
 #### Métaux dissous, mono-paramètre
 === "Métaux dissous, mono-paramètre"
     ```
-    Métaux dissous: Le matériau de référence le XXX est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
+    Métaux dissous : Le matériau de référence le XXX est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
     ```
 === "Métaux dissous, Baryum"
     ```
-    Métaux dissous: Le matériau de référence le Baryum est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
+    Métaux dissous : Le matériau de référence le Baryum est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
     ```
 === "Métaux dissous, Bore"
     ```
-    Métaux dissous: Le matériau de référence le Bore est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
+    Métaux dissous : Le matériau de référence le Bore est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.
     ```
 #### Métaux dissous multi-paramètres
 === "Métaux dissous, multi-paramètres"
     ```
-    Métaux dissous: Les matériaux de référence le XXX, le YYY et le ZZZ sont hors critères d'acceptabilité, mais aucun impact sur les résultats de l'échantillon.
+    Métaux dissous : Les matériaux de référence le XXX, le YYY et le ZZZ sont hors critères d'acceptabilité, mais aucun impact sur les résultats de l'échantillon.
     ```
 === "Métaux dissous, Baryum et Bore"
     ```
-    Métaux dissous: Les matériaux de référence le Baryum et le Bore sont hors critères d'acceptabilité, mais aucun impact sur les résultats de l'échantillon.
+    Métaux dissous : Les matériaux de référence le Baryum et le Bore sont hors critères d'acceptabilité, mais aucun impact sur les résultats de l'échantillon.
     ```
 
 ### Blanc positif
-Métaux extractibles: Blanc positif soustrait
+Métaux extractibles : Blanc positif soustrait
 ```
 Blanc positif soustrait du résultat pour l’analyse du Cuivre extractible.
 ```
-Métaux extractibles: Blanc positif non-soustrait
+Métaux extractibles : Blanc positif non-soustrait
 ```
 Blanc positif non-soustrait du résultat pour l’analyse du Cuivre extractible.
 ```
-Métaux extractibles: Blanc positif - pas d'impact
+Métaux extractibles : Blanc positif - pas d'impact
 ```
-Métaux extractibles: Blanc est positif en Cuivre, mais aucun impact sur les résultats de l’échantillon.
+Métaux extractibles : Blanc est positif en Cuivre, mais aucun impact sur les résultats de l’échantillon.
 ```
-Métaux solubles à l'acide: Blanc positif soustrait
+Métaux solubles à l'acide : Blanc positif soustrait
 ```
 Blanc positif soustrait du résultat pour l’analyse du Sélénium soluble à l'acide.
 ```
-Métaux solubles à l'acide: Blanc positif - pas s'impact
+Métaux solubles à l'acide : Blanc positif - pas s'impact
 ```
-Métaux solubles à l'acide: Blanc est positif en Sélénium, mais aucun impact sur le résultat de l’échantillon.
+Métaux solubles à l'acide : Blanc est positif en Sélénium, mais aucun impact sur le résultat de l’échantillon.
 ```
 
 ### Inter-paramètres
