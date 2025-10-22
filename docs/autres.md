@@ -10,7 +10,11 @@ Les résultats des Matières en suspension pour les paramètres des matières en
 L'échantillon pour l'analyse des Matières en suspension est hétérogène. Le résultat le plus élevé a été transmis. Autres résultats obtenus: XX et XX.
 ```
 
-Base humide
+## Mauvais contenant
+```
+L'échantillon a été prélevé dans un sac en plastique. Les analyses ont été effectuées à la demande du client.
+```
+## Base humide
 ```
 XXX : Les résultats sont rapportés sur une base humide.
 ```

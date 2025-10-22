@@ -8,6 +8,14 @@
     ```
     L'analyse du pH a été effectuée dans un délai dépassé.
     ```
+=== "pH EU"
+    ```
+    L'analyse du pH EU a été effectuée dans un délai dépassé.
+    ```
+=== "pH EP"
+    ```
+    L'analyse du pH EP a été effectuée dans un délai dépassé.
+    ```
 === "pH-15°C"
     ```
     L'analyse du pH-15°C a été effectuée dans un délai dépassé.
@@ -16,10 +24,6 @@
     ```
     L'analyse des Matières en suspension a été effectuée dans un délai dépassé.
     ```
-=== "Oxygène dissous"
-    ```
-    L'analyse de l'Oxygène dissous a été effectuée dans un délai dépassé.
-    ```
 === "Nitrites et Nitrates"
     ```
     L'analyse des Nitrites et Nitrates a été effectuée dans un délai dépassé.
@@ -27,6 +31,27 @@
 === "Orthophosphates"
     ```
     L'analyse des Orthophosphates a été effectuée dans un délai dépassé.
+    ```
+```
+The pH analysis was performed after the holding time has expired.
+```
+
+## Délai de conservation dépassé (> 1 analyse)
+=== "Général multi"
+    ```
+    Les analyses de XXX, de YYY et de ZZZ ont été effectuées dans un délai dépassé.
+    ```
+=== "Général multi, demande du client"
+    ```
+    Les analyses de XXX, de YYY et de ZZZ ont été effectuées dans un délai dépassé, à la demande du client.
+    ```
+=== "Chlore libre et total"
+    ```
+    Les analyses du Chlore résiduel libre et du Chlore résiduel total ont été effectuées dans un délai dépassé.
+    ```
+=== "Nitrites, Nitrates, Nitrites et Nitrates"
+    ```
+    Les analyses des Nitrites, des Nitrates et des Nitrites et Nitrates ont été effectuées dans un délai dépassé.
     ```
 
 ## Filtration
@@ -57,7 +82,7 @@ XXX : Agent de conservation insuffisant, pH ajusté au laboratoire.
 
 pH boue liquide :
 ```
-pH :  L'échantillon de boue est suffisamment liquide, il a été analysé directement sans extraction.
+pH : L'échantillon de boue est suffisamment liquide, il a été analysé directement sans extraction.
 ```
 
 ## Limite rapportée augmentée

@@ -99,6 +99,10 @@
     ```
     Hydrocarbures aromatiques polycycliques : Les limites rapportées ont été augmentées dues à une dilution de l'échantillon en raison de la matrice.
     ```
+=== "Glycols"
+    ```
+    Glycols : Les limites rapportées ont été augmentées due à une dilution de l'échantillon en raison de la matrice.
+    ```
 ### LR augmentée(s) : % d'humidité élevé
 === "% d'humidité élevé - mono"
     ```
@@ -256,6 +260,10 @@ Hydrocarbures aromatiques polycycliques : Blanc est positif en Dibenzo(a, h)pyr�
 HAP, Surrogates trop élevés
 ```
 Hydrocarbures aromatiques polycycliques : Les étalons de recouvrement sont non conformes, trop élevés, les résultats peuvent être surévalués.
+```
+HAP, surrogates bas
+```
+Les récupérations des étalons de recouvrement sont hors des critères d'acceptabilité en raison d’un effet de matrice. Les résultats sont à interpréter avec diligence et discernement.
 ```
 HAP, MR non-conforme (trop fort)
 ```

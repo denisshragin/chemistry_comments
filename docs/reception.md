@@ -31,6 +31,10 @@ Autorisation à transmettre les résultats d'analyses aux préleveurs.
     ```
     L'analyse de la Demande biochimique en oxygène a été effectuée dans un délai dépassé.
     ```
+=== "DCO dissous"
+    ```
+    L'échantillon pour l'analyse de la Demande chimique en oxygène dissous a été filtré et préservé au laboratoire dans un délai dépassé.
+    ```
 === "C10C50 et HAP"
     ```
     Les analyses des Hydrocarbures aromatiques polycycliques et des Hydrocarbures Pétroliers (C10-C50) ont été effectuées dans un délai dépassé.
@@ -214,6 +218,9 @@ L'échantillon pour l'analyse de la Demande biochimique en oxygène a été cong
     ```
     The sample for Biochemical Oxygen Demand analysis was frozen upon reception at the laboratory.
     ```
+```
+The pH analysis was performed after the holding time has expired.
+```
 
 ## Unités
 === "°C"

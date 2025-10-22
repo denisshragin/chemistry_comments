@@ -28,6 +28,12 @@ Lixiviation TCLP : Masse insuffisante pour le pré-test.
     Métaux solubles à l'acide : Agent de conservation insuffisant, pH ajusté au laboratoire.
     ```
 
+## Filtration pour l'analyse des Métaux solubles à l'acide
+=== "Métaux solubles à l'acide"
+```
+    L'échantillon a été filtré pour l'analyse des Métaux solubles à l'acide.
+```
+
 
 ### MR non-conforme
 #### Métaux extractibles mono-paramètre
