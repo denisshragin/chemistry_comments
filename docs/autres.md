@@ -31,6 +31,9 @@ Duplicata non conforme en raison de l’hétérogénéité de l’échantillon.
 ```
 Les résultats de XXX et de XXX ne respectent pas les critères de comparaison inter-paramètres. Les résultats des 2 analyses ont été confirmés en reprise.
 ```
+```
+Glycols : Les limites rapportées ont été augmentées due à une dilution de l'échantillon en raison de la matrice.
+```
 
 ## Bouteilles différentes ou inversées
 Bouteilles différentes

@@ -2,7 +2,7 @@
 
 ## Commentaires
 ```
-Température mesurée par le client : * °C.
+Température mesurée par le client : *°C.
 ```
 
 ```
@@ -15,21 +15,25 @@ Autorisation à transmettre les résultats d'analyses aux préleveurs.
     ```
     L'analyse de XXX a été effectuée dans un délai dépassé.
     ```
-=== "pH"
+=== "Général mono client"
     ```
-    L'analyse du pH a été effectuée dans un délai dépassé.
+    L'analyse de XXX a été effectuée dans un délai dépassé, à la demande du client.
+    ```
+=== "pH EU"
+    ```
+    L'analyse du pH EU a été effectuée dans un délai dépassé.
     ```
 === "pH-15°C"
     ```
     L'analyse du pH-15°C a été effectuée dans un délai dépassé.
     ```
+=== "pH EP"
+    ```
+    L'analyse du pH EP a été effectuée dans un délai dépassé.
+    ```
 === "MES"
     ```
     L'analyse des Matières en suspension a été effectuée dans un délai dépassé.
-    ```
-=== "DBO"
-    ```
-    L'analyse de la Demande biochimique en oxygène a été effectuée dans un délai dépassé.
     ```
 === "DCO dissous"
     ```
@@ -57,7 +61,7 @@ Autorisation à transmettre les résultats d'analyses aux préleveurs.
     ```
     Les analyses de XXX, de YYY et de ZZZ ont été effectuées dans un délai dépassé.
     ```
-=== "Général multi, demande du client"
+=== "Général multi client"
     ```
     Les analyses de XXX, de YYY et de ZZZ ont été effectuées dans un délai dépassé, à la demande du client.
     ```
@@ -80,39 +84,47 @@ Autorisation à transmettre les résultats d'analyses aux préleveurs.
     ```
     L'analyse de la Demande biochimique en oxygène totale a été effectuée dans un délai dépassé.
     ```
+    ![QR code for DBO](assets/qr_images/DBO_expiree/DBOT_expiree_1.png)
 === "DBOc"
     ```
     L'analyse de la Demande biochimique en oxygène carbonée a été effectuée dans un délai dépassé.
     ```
+    ![QR code for DBO](assets/qr_images/DBO_expiree/DBOC_expiree_2.png)
 === "DBOd"
     ```
     L'analyse de la Demande biochimique en oxygène dissous a été effectuée dans un délai dépassé.
     ```
+    ![QR code for DBO](assets/qr_images/DBO_expiree/DBOD_expiree_3.png)
 === "DBOc et d"
     ```
     L'analyse de la Demande biochimique en oxygène carbonée et dissous a été effectuée dans un délai dépassé.
     ```
+    ![QR code for DBO](assets/qr_images/DBO_expiree/DBOCD_expiree_4.png)
 === "Oxygène dissous"
     ```
     L'analyse de l'Oxygène dissous a été effectuée dans un délai dépassé.
     ```
+    ![QR code for DBO](assets/qr_images/DBO_expiree/Oxygène_dissous_expiree_2.png)
 
 ## Filtration par le client
 
-Métaux dissous -- filtration sur le terrain :
+Métaux dissous - filtration sur le terrain :
 ```
 L'échantillon pour l'analyse des Métaux dissous a été filtré et préservé sur le terrain.
 ```
 
 ## Type de captage
-
-=== "Puits de surface"
+=== "Général"
     ```
-    Type de captage : Puits de surface.
+    Type de captage : *.
     ```
 === "Puits"
     ```
     Type de captage : Puits.
+    ```
+=== "Puits de surface"
+    ```
+    Type de captage : Puits de surface.
     ```
 === "Puits tubulaire"
     ```
