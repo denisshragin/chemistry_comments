@@ -1,13 +1,45 @@
 # Réception
 
-## Commentaires
-```
-Température mesurée par le client : *°C.
-```
+## Température
 
-```
-Autorisation à transmettre les résultats d'analyses aux préleveurs.
-```
+=== "Client"
+    ```
+    Température mesurée par le client : *°C.
+    ```
+=== "Réception"
+    ```
+    Température à la réception : *°C.
+    ```
+=== "Supérieure à 12°C"
+    ```
+    La température de l'échantillon à l'arrivée au laboratoire est supérieure à 12°C.
+    ```
+=== "Omise"
+    ```
+    * La température a été omise lors de la réception de l'échantillon.
+    ```
+
+## Prélèvement
+=== "Point d'échantillonage"
+    ```
+    Point d'échantillonage : 
+    ```
+=== "Point absent"
+    ```
+    Le point d'échantillonage exact n'a pas été fourni par le client.
+    ```
+=== "Nom absent"
+    ```
+    L'information concernant le nom du préleveur n'a pas été fournie par le client.
+    ```
+=== "Date absent"
+    ```
+    La date de prélèvement n'a pas été indiquée par le client. La date de la veille de la réception a été indiquée par default.
+    ```
+=== "Autorisation"
+    ```
+    Autorisation à transmettre les résultats d'analyses aux préleveurs.
+    ```
 
 ## Délai de conservation dépassé (1 analyse)
 
@@ -15,17 +47,13 @@ Autorisation à transmettre les résultats d'analyses aux préleveurs.
     ```
     L'analyse de XXX a été effectuée dans un délai dépassé.
     ```
-=== "Général mono client"
-    ```
-    L'analyse de XXX a été effectuée dans un délai dépassé, à la demande du client.
-    ```
 === "pH EU"
     ```
     L'analyse du pH EU a été effectuée dans un délai dépassé.
     ```
 === "pH-15°C"
     ```
-    L'analyse du pH-15°C a été effectuée dans un délai dépassé.
+    L'analyse du pH- 15°C a été effectuée dans un délai dépassé.
     ```
 === "pH EP"
     ```
@@ -56,6 +84,37 @@ Autorisation à transmettre les résultats d'analyses aux préleveurs.
     L'analyse des Orthophosphates a été effectuée dans un délai dépassé.
     ```
 
+## Délai de conservation dépassé (1 analyse) demande du client
+
+=== "Général mono client"
+    ```
+    L'analyse de XXX a été effectuée dans un délai dépassé, à la demande du client.
+    ```
+=== "Chlore résiduel total"
+    ```
+    L'analyse du Chlore résiduel total a été effectuée dans un délai dépassé, à la demande du client.
+    ```
+=== "Chlore résiduel libre"
+    ```
+    L'analyse du Chlore résiduel libre a été effectuée dans un délai dépassé, à la demande du client.
+    ```
+=== "pH EU"
+    ```
+    L'analyse du pH EU a été effectuée dans un délai dépassé, à la demande du client.
+    ```
+=== "pH-15°C"
+    ```
+    L'analyse du pH- 15°C a été effectuée dans un délai dépassé, à la demande du client.
+    ```
+=== "DBO totale"
+    ```
+    L'analyse de la Demande biochimique en oxygène totale a été effectuée dans un délai dépassé, à la demande du client.
+    ```
+=== "DBO carbonée"
+    ```
+    L'analyse de la Demande biochimique en oxygène carbonée a été effectuée dans un délai dépassé, à la demande du client.
+    ```
+
 ## Délai de conservation dépassé (> 1 analyse)
 === "Général multi"
     ```
@@ -84,27 +143,22 @@ Autorisation à transmettre les résultats d'analyses aux préleveurs.
     ```
     L'analyse de la Demande biochimique en oxygène totale a été effectuée dans un délai dépassé.
     ```
-    ![QR code for DBO](assets/qr_images/DBO_expiree/DBOT_expiree_1.png)
 === "DBOc"
     ```
     L'analyse de la Demande biochimique en oxygène carbonée a été effectuée dans un délai dépassé.
     ```
-    ![QR code for DBO](assets/qr_images/DBO_expiree/DBOC_expiree_2.png)
 === "DBOd"
     ```
     L'analyse de la Demande biochimique en oxygène dissous a été effectuée dans un délai dépassé.
     ```
-    ![QR code for DBO](assets/qr_images/DBO_expiree/DBOD_expiree_3.png)
 === "DBOc et d"
     ```
     L'analyse de la Demande biochimique en oxygène carbonée et dissous a été effectuée dans un délai dépassé.
     ```
-    ![QR code for DBO](assets/qr_images/DBO_expiree/DBOCD_expiree_4.png)
 === "Oxygène dissous"
     ```
     L'analyse de l'Oxygène dissous a été effectuée dans un délai dépassé.
     ```
-    ![QR code for DBO](assets/qr_images/DBO_expiree/Oxygène_dissous_expiree_2.png)
 
 ## Filtration par le client
 
@@ -233,6 +287,24 @@ L'échantillon pour l'analyse de la Demande biochimique en oxygène a été cong
 ```
 The pH analysis was performed after the holding time has expired.
 ```
+
+## Varia
+=== "Commentaires du client :"
+    ```
+    Commentaires du client : 
+    ```
+=== "Commentaires à la réception :"
+    ```
+    Commentaires à la réception : 
+    ```
+=== "Débit"
+    ```
+    Débit : m3/j.
+    ```
+=== "BNQ"
+    ```
+    Normes et limites du BNQ. Échantillonneur # * .
+    ```
 
 ## Unités
 === "°C"
