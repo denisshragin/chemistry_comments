@@ -104,7 +104,7 @@
     ```
 === "pH-15°C"
     ```
-    L'analyse du pH- 15°C a été effectuée dans un délai dépassé, à la demande du client.
+    L'analyse du pH-15°C a été effectuée dans un délai dépassé, à la demande du client.
     ```
 === "DBO totale"
     ```
@@ -307,15 +307,19 @@ The pH analysis was performed after the holding time has expired.
     ```
 
 ## Unités
-=== "°C"
+=== "Température, °C"
     ```
     °C
     ```
-=== "m3/j"
+=== "Débit, m3/j"
     ```
     m3/j
     ```
-=== "mg/L "
+=== "Concentration, mg/L "
     ```
     mg/L
+    ```
+=== "Conductivité, µS/cm "
+    ```
+    µS/cm
     ```

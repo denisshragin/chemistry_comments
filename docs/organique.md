@@ -230,6 +230,13 @@ RQEP multi
 Composés organiques volatils Règ.EP D140 : Les matériaux de référence le Chlorure de vinyle et le Tétrachloroéthène sont hors critères d'acceptabilité, mais aucun impact sur les résultats de l'échantillon.
 ```
 
+### Surro out
+```
+La récupération de l’étalon de recouvrement D4-1,2-dichloroéthane est hors des critères d’acceptabilité, mais aucun impact sur les résultats de l’échantillon.
+```
+
+La récupération de l’étalon de recouvrement D4-1,2-dichloroéthane est hors des critères d’acceptabilité, mais cela n’a aucun impact sur les résultats de l’échantillon.
+
 ## C10-C50 et HAP
 C10-C50, Erreur de manipulation
 ```
@@ -283,6 +290,11 @@ Hydrocarbures aromatiques polycycliques : Le Phénanthrène est en dehors de not
 HAP, Surrogates oiubliés :
 ```
 Hydrocarbures aromatiques polycycliques : À cause d'une erreur de manipulation les récupérations des étalons de recouvrement ne sont pas disponibles, mais aucun impact sur le résultat de l'échantillon.
+```
+
+HAP surro matrice
+```
+Les récupérations des étalons de recouvrement sont hors des critères d'acceptabilité en raison d’un effet de matrice. Les résultats sont à interpréter avec diligence et discernement.
 ```
 MR HAP non conforme mono
 === "Général"
@@ -356,6 +368,21 @@ Hydrocarbures volatils C1-C6 : Présence d’une contamination non-identifiable 
 Solvants Halogénés - MR non-conforme (trop fort)
 ```
 Solvants halogénés : Le matériau de référence est non-conforme (trop fort) le résultat de l’échantillon peut être surestimé.
+```
+
+## Chlorophylle A
+Contenant non-conforme
+```
+La bouteille pour l'analyse de la Chlorophylle A est non-conforme, l'échantillion a été exposé à la lumière.
+```
+Filtration dans un délai dépassé
+```
+L'échantillon pour l'analyse de la Chlorophylle A a été filtré dans un délai dépassé.
+```
+Blanc positif
+```
+Blanc positif soustrait du résultat pour l'analyse de la Chlorophylle A.
+
 ```
 
 ## Corps étrangers
