@@ -9,6 +9,7 @@ nav:
   - DBO: "dbo.md"
   - Inter-paramètres: 'inter_param.md'
   - Autres: "autres.md"
+  - MR_COV_HAP: "comments_MR_COV_HAP.html"
 theme: 
   name: material
   features:
