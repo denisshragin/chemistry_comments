@@ -280,74 +280,156 @@
     }
 
     // --- CORE LOGIC (GENERATION) ---
+
     function generateText() {
-        // 1. Déterminer l'ensemble de composés à utiliser (uniquement ceux de l'onglet actif)
-        const containerId = (activeCompoundType === 'voc') ? 'checkboxContainerVoc' : 'checkboxContainerPah';
-        const checkedBoxes = Array.from(document.querySelectorAll(`#${containerId} input[type="checkbox"]:checked`));
-        const values = checkedBoxes.map(cb => cb.value);
-        
-        if (values.length === 0) {
-            resultArea.value = "";
-            return;
+    // Liste des lettres voyelles françaises (y compris les voyelles accentuées)
+    // C'est cette liste qui détermine si l'élision (le -> l') doit être appliquée.
+    const VOWEL_LETTERS = ['A', 'a', 'À', 'à', 'E', 'e', 'É', 'é', 'È', 'è', 'I', 'i', 'O', 'o', 'U', 'u'];
+
+    /**
+     * Applique l'élision française pour le déterminant "le" devant un nom.
+     * Si le nom commence par une voyelle (selon VOWEL_LETTERS), retourne "l'Nom",
+     * sinon retourne "le Nom".
+     * @param {string} name - Le nom du composé.
+     * @returns {string} - Le nom formaté avec le déterminant correct ("le Nom" ou "l'Nom").
+     */
+    function formatCompoundName(name) {
+        if (!name || name.length === 0) {
+            return "le [Nom manquant]";
         }
+        
+        // 1. Prendre la première lettre du nom.
+        const firstLetter = name[0];
 
-        let listString;
-        let finalTemplate;
-        // to fix le Antracene --> l'Antracene
-        // list des lettres à corriger: A, a, À, à, E, e, É, é, È, è, I, i, O, o, U, u
-
-
-        // 2. Construire la liste (le C1, le C2... et le CN)
-        if (values.length === 1) {
-            // Case N=1: le C1
-            listString = `le ${values[0]}`;
-            finalTemplate = templates[activeCompoundType].singular;
+        // 2. Vérifier si cette première lettre est dans la liste des voyelles.
+        //    indexOf est utilisé pour la vérification simple d'inclusion dans le tableau.
+        if (VOWEL_LETTERS.indexOf(firstLetter) !== -1) {
+            // ÉLISION : la première lettre est une voyelle.
+            return `l'${name}`;
         } else {
-            // Case N >= 2: le C1, le C2, ..., et le CN
-            const initialPart = values.slice(0, -1).map(c => `le ${c}`).join(', ');
-            const lastPart = `et le ${values[values.length - 1]}`;
-            listString = `${initialPart} et le ${values[values.length - 1]}`; // Correction pour éviter le double "et le"
-            
-            // Correction de la liste pour N>=2
-            const initialValues = values.slice(0, -1);
-            if (initialValues.length > 0) {
-                 listString = initialValues.map(c => `le ${c}`).join(', ') + ` et le ${values[values.length - 1]}`;
-            } else {
-                 listString = `et le ${values[0]}`; // Cas théorique N=1, mais géré plus haut
-            }
-
-
-            finalTemplate = templates[activeCompoundType].plural;
-            
-            // Re-correction pour la grammaire exacte le C1, le C2 et le C3
-            if (values.length === 2) {
-                listString = `le ${values[0]} et le ${values[1]}`;
-            } else {
-                const initialPart = values.slice(0, -1).map(c => `le ${c}`).join(', ');
-                listString = initialPart + ` et le ${values[values.length - 1]}`;
-            }
-
+            // PAS D'ÉLISION : la première lettre est une consonne.
+            return `le ${name}`;
         }
-        
-        // Finalement, on s'assure que la liste ne commence pas par une virgule si N>=2
-        if (values.length > 1) {
-            listString = values.slice(0, -1).map(c => `le ${c}`).join(', ') + ` et le ${values[values.length - 1]}`;
-            if (values.length === 2) {
-                // Pour N=2, on veut "le C1 et le C2" (sans virgule)
-                 listString = `le ${values[0]} et le ${values[1]}`;
-            } else {
-                // Pour N>=3, on veut "le C1, le C2, le C3 et le C4"
-                listString = values.slice(0, -1).map(c => `le ${c}`).join(', ') + ` et le ${values[values.length - 1]}`;
-            }
-        } else {
-             listString = `le ${values[0]}`;
-        }
-        
-        // 3. Remplacer le placeholder
-        const finalPhrase = finalTemplate.replace('{liste}', listString);
-
-        resultArea.value = finalPhrase;
     }
+    
+    // 1. Déterminer l'ensemble de composés à utiliser (uniquement ceux de l'onglet actif)
+    const containerId = (activeCompoundType === 'voc') ? 'checkboxContainerVoc' : 'checkboxContainerPah';
+    const checkedBoxes = Array.from(document.querySelectorAll(`#${containerId} input[type="checkbox"]:checked`));
+    const values = checkedBoxes.map(cb => cb.value);
+    
+    if (values.length === 0) {
+        resultArea.value = "";
+        return;
+    }
+
+    let listString;
+    let finalTemplate;
+    
+    // Remplacement de toutes les occurrences de 'le ${...}' par 'formatCompoundName(...)'
+    // ---------------------------------------------------------------------------------
+
+    // 2. Construire la liste (le C1, le C2... et le CN)
+    if (values.length === 1) {
+        // Case N=1: le C1 -> formatCompoundName(C1)
+        listString = formatCompoundName(values[0]);
+        finalTemplate = templates[activeCompoundType].singular;
+    } else {
+        // Case N >= 2: le C1, le C2, ..., et le CN
+        
+        // La logique complexe de construction de la liste pour N>=2 est simplifiée
+        // en utilisant 'formatCompoundName' pour chaque élément.
+
+        // Re-correction pour la grammaire exacte le C1, le C2 et le C3
+        if (values.length === 2) {
+            // N=2: le C1 et le C2 -> formatCompoundName(C1) et formatCompoundName(C2)
+            listString = `${formatCompoundName(values[0])} et ${formatCompoundName(values[1])}`;
+        } else {
+            // N>=3: le C1, le C2, ..., et le CN
+            const initialPart = values.slice(0, -1).map(c => formatCompoundName(c)).join(', ');
+            const lastCompound = formatCompoundName(values[values.length - 1]);
+            listString = initialPart + ` et ${lastCompound}`;
+        }
+
+        finalTemplate = templates[activeCompoundType].plural;
+    }
+    
+    // Cette section (anciennement les points 2 et 3) est maintenant simplifiée
+    // et ne fait qu'assurer le formatage correct de la liste finale.
+    // L'ancienne logique de gestion des virgules/nombre est conservée dans le 'else' ci-dessus.
+    
+    // 3. Remplacer le placeholder
+    const finalPhrase = finalTemplate.replace('{liste}', listString);
+
+    resultArea.value = finalPhrase;
+}
+    // function generateText() {
+    //     // 1. Déterminer l'ensemble de composés à utiliser (uniquement ceux de l'onglet actif)
+    //     const containerId = (activeCompoundType === 'voc') ? 'checkboxContainerVoc' : 'checkboxContainerPah';
+    //     const checkedBoxes = Array.from(document.querySelectorAll(`#${containerId} input[type="checkbox"]:checked`));
+    //     const values = checkedBoxes.map(cb => cb.value);
+        
+    //     if (values.length === 0) {
+    //         resultArea.value = "";
+    //         return;
+    //     }
+
+    //     let listString;
+    //     let finalTemplate;
+    //     // to fix le Antracene --> l'Antracene
+    //     // list des lettres à corriger: A, a, À, à, E, e, É, é, È, è, I, i, O, o, U, u
+
+
+    //     // 2. Construire la liste (le C1, le C2... et le CN)
+    //     if (values.length === 1) {
+    //         // Case N=1: le C1
+    //         listString = `le ${values[0]}`;
+    //         finalTemplate = templates[activeCompoundType].singular;
+    //     } else {
+    //         // Case N >= 2: le C1, le C2, ..., et le CN
+    //         const initialPart = values.slice(0, -1).map(c => `le ${c}`).join(', ');
+    //         const lastPart = `et le ${values[values.length - 1]}`;
+    //         listString = `${initialPart} et le ${values[values.length - 1]}`; // Correction pour éviter le double "et le"
+            
+    //         // Correction de la liste pour N>=2
+    //         const initialValues = values.slice(0, -1);
+    //         if (initialValues.length > 0) {
+    //              listString = initialValues.map(c => `le ${c}`).join(', ') + ` et le ${values[values.length - 1]}`;
+    //         } else {
+    //              listString = `et le ${values[0]}`; // Cas théorique N=1, mais géré plus haut
+    //         }
+
+
+    //         finalTemplate = templates[activeCompoundType].plural;
+            
+    //         // Re-correction pour la grammaire exacte le C1, le C2 et le C3
+    //         if (values.length === 2) {
+    //             listString = `le ${values[0]} et le ${values[1]}`;
+    //         } else {
+    //             const initialPart = values.slice(0, -1).map(c => `le ${c}`).join(', ');
+    //             listString = initialPart + ` et le ${values[values.length - 1]}`;
+    //         }
+
+    //     }
+        
+    //     // Finalement, on s'assure que la liste ne commence pas par une virgule si N>=2
+    //     if (values.length > 1) {
+    //         listString = values.slice(0, -1).map(c => `le ${c}`).join(', ') + ` et le ${values[values.length - 1]}`;
+    //         if (values.length === 2) {
+    //             // Pour N=2, on veut "le C1 et le C2" (sans virgule)
+    //              listString = `le ${values[0]} et le ${values[1]}`;
+    //         } else {
+    //             // Pour N>=3, on veut "le C1, le C2, le C3 et le C4"
+    //             listString = values.slice(0, -1).map(c => `le ${c}`).join(', ') + ` et le ${values[values.length - 1]}`;
+    //         }
+    //     } else {
+    //          listString = `le ${values[0]}`;
+    //     }
+        
+    //     // 3. Remplacer le placeholder
+    //     const finalPhrase = finalTemplate.replace('{liste}', listString);
+
+    //     resultArea.value = finalPhrase;
+    // }
 
 
     // --- UI CONTROL FUNCTIONS ---
