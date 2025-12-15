@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Générateur des commentaires</title>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --bg: #f1f5f9;
+            --border: #cbd5e1;
+            --surface: #ffffff;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg);
+            padding: 10px;
+            max-width: 1000px;
+            margin: 0 auto;
+            color: #334155;
+        }
+
+        h2 { color: #1e293b; margin-bottom: 6px; }
+
+        /* Card Styling */
+        .card {
+            background: var(--surface);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            margin-bottom: 10px;
+            border: 1px solid var(--border);
+        }
+
+        /* Tab Navigation */
+        .tabs {
+            display: flex;
+            border-bottom: 2px solid var(--border);
+            margin-bottom: 0;
+        }
+        .tab-button {
+            padding: 10px 15px;
+            cursor: pointer;
+            border: none;
+            background-color: transparent;
+            font-weight: 500;
+            color: #64748b;
+            transition: all 0.3s;
+            border-bottom: 3px solid transparent;
+            margin-bottom: -2px;
+        }
+        .tab-button:hover {
+            color: #1e293b;
+        }
+        .tab-button.active {
+            color: var(--primary);
+            border-bottom: 3px solid var(--primary);
+            font-weight: 600;
+        }
+        .tab-content {
+            display: none;
+            padding-top: 10px;
+        }
+        .tab-content.active {
+            display: block;
+        }
+
+        /* Controls */
+        .controls {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        .full-width { width: 100%; }
+
+        input[type="text"] {
+            padding: 10px;
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            font-size: 1rem;
+        }
+        
+        input[type="text"]:focus {
+            outline: 2px solid var(--primary);
+            border-color: transparent;
+        }
+
+        button {
+            background-color: var(--primary);
+            color: white;
+            border: none;
+            padding: 10px 18px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 500;
+            transition: opacity 0.2s;
+        }
+        button:hover { opacity: 0.9; }
+        button.outline { 
+            background-color: transparent; 
+            border: 1px solid var(--primary); 
+            color: var(--primary); 
+        }
+        button.outline:hover { background-color: #f8fafc; }
+
+        /* Checkbox Grid */
+        .voc-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 8px;
+            max-height: 800px;
+            overflow-y: auto;
+            margin-top: 15px;
+            padding-right: 5px; 
+        }
+
+        .voc-item {
+            display: flex;
+            align-items: center;
+            padding: 6px 8px;
+            border-radius: 6px;
+            transition: background 0.2s;
+        }
+
+        .voc-item:hover { background-color: #f8fafc; }
+        
+        .voc-item input { 
+            margin-right: 12px; 
+            width: 16px; 
+            height: 16px; 
+            cursor: pointer;
+            accent-color: var(--primary);
+        }
+        
+        .voc-item label { 
+            cursor: pointer; 
+            width: 100%; 
+            user-select: none;
+            font-size: 0.95rem;
+        }
+
+        /* Output Area */
+        textarea {
+            width: 97%;
+            height: 80px;
+            padding: 12px;
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            font-family: inherit;
+            margin-top: 10px;
+        /*    resize: vertical;*/
+            resize: none;
+            font-size: 1rem;
+        }
+
+        .label-bold { font-weight: 600; display: block; margin-bottom: 8px; }
+        .hint { font-size: 0.85rem; color: #64748b; margin-bottom: 10px; }
+    </style>
+</head>
+<body>
+
+    <h2>Générateur des commentaires pour MR en dehors de specification</h2>
+    <h3>Ne pas utiliser!!! (en développement)</h3>
+
+    <div class="tabs card" style="padding: 0; margin-bottom: 0; border: none; box-shadow: none; border-bottom: 2px solid var(--border);">
+        <button class="tab-button active" onclick="openTab('voc')">COV (Composés Organiques Volatils)</button>
+        <button class="tab-button" onclick="openTab('pah')">HAP (Hydrocarbures Aromatiques Polycycliques)</button>
+    </div>
+
+    <div class="tab-content-container">
+
+        <div id="voc" class="tab-content active">
+            
+            <div class="card">
+                <label class="label-bold">Sélectionner les composés COV :</label>
+    <!--            <div class="controls">
+                    <input type="text" id="searchInputVoc" placeholder="Rechercher (ex: xylène)..." onkeyup="filterList('voc')" style="flex-grow: 1;">
+                    <button class="outline" onclick="selectAll('voc', true)">Tout cocher</button>
+                    <button class="outline" onclick="selectAll('voc', false)">Tout décocher</button>
+                </div> -->
+                <div class="voc-grid" id="checkboxContainerVoc">
+                </div>
+            </div>
+        </div>
+
+        <div id="pah" class="tab-content">
+
+             <div class="card">
+                <label class="label-bold">Sélectionner les composés HAP :</label>
+                <div class="controls">
+                    <input type="text" id="searchInputPah" placeholder="Rechercher (ex: pyrène)..." onkeyup="filterList('pah')" style="flex-grow: 1;">
+                    <button class="outline" onclick="selectAll('pah', true)">Tout cocher</button>
+                    <button class="outline" onclick="selectAll('pah', false)">Tout décocher</button>
+                </div>
+                <div class="voc-grid" id="checkboxContainerPah">
+                    </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <label class="label-bold">Commentaire généré :</label>
+        <textarea id="resultArea" readonly></textarea>
+        <div style="margin-top: 10px;">
+            <button onclick="copyToClipboard()">Copier le texte</button>
+        </div>
+    </div>
+
+<script>
+    // --- DATA ---
+    const vocData = `1,1-dichloroéthène; dichlorométhane; trans-1,2-dichloroéthène; 1,1-dichloroéthane; 2,2-dichloropropane; cis-1,2-dichloroéthène; chloroforme; bromochlorométhane; 1,1,1-trichloroéthane; 1,1-dichloropropène; tétrachlorure de carbone; 1,2-dichloroéthane; benzène; trichloroéthène; 1,2-dichloropropane; bromodichlorométhane; dibromométhane; cis-1,3-dichloropropène; toluène; trans-1,3-dichloropropène; 1,1,2-trichloroéthane; 1,3-dichloropropane; tétrachloroéthène; dibromochlorométhane; 1,2-dibromoéthane; chlorobenzène; 1,1,1,2-tétrachloroéthane; éthylbenzène; m,p-xylène; o-xylène; styrène; isopropylbenzène; bromoforme; 1,1,2,2-tétrachloroéthane; 1,2,3-trichloropropane; n-propylbenzène; bromobenzène; 1,3,5-triméthylbenzène; 2-chlorotoluène; 4-chlorotoluène; tert-butylbenzène; 1,2,4-triméthylbenzène; sec-butylbenzène; p-isopropyltoluène; 1,3-dichlorobenzène; 1,4-dichlorobenzène; n-butylbenzène; 1,2-dichlorobenzène; 1,2-dibromo-3-chloropropane; 1,2,4-trichlorobenzène; hexachlorobutadiène; 1,2,3-trichlorobenzène`;
+
+    const pahData = `Naphtalène; Acénaphtylène; Acénaphtène; Fluorène; Phénanthrène; Anthracène; Fluoranthène; Pyrène; Benzo[a]anthracène; Chrysène; Benzo[b]fluoranthène; Benzo[k]fluoranthène; Benzo[a]pyrène; Dibenzo[a,h]anthracène; Benzo[g,h,i]pérylène; Indéno[1,2,3-cd]pyrène`;
+
+    // --- SETUP VARIABLES ---
+    // Note: templateInput is removed from the HTML since the phrases are now fixed, 
+    // but the template strings are defined here in JS.
+    const resultArea = document.getElementById('resultArea');
+    let activeCompoundType = 'voc'; // Tracks which type is currently active
+
+    // PHRASE TEMPLATES (Singulier et Pluriel)
+    const templates = {
+        voc: {
+            singular: "COV : Le matériau de référence {liste} est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.",
+            plural: "COV : Les matériaux de référence {liste} sont hors critères d'acceptabilité, mais aucun impact sur les résultats de l'échantillon."
+        },
+        pah: {
+            singular: "Hydrocarbures aromatiques polycycliques : Le matériau de référence {liste} est hors critères d'acceptabilité, mais aucun impact sur le résultat de l'échantillon.",
+            plural: "Hydrocarbures aromatiques polycycliques : Les matériaux de référence {liste} sont hors critères d'acceptabilité, mais aucun impact sur les résultats de l'échantillon."
+        }
+    };
+
+    // --- DATA PROCESSING FUNCTION ---
+    function processData(rawData) {
+        return rawData
+            .split(/;/)
+            .map(item => {
+                let name = item.trim();
+    //            name = name.replace(/[.,]$/, '');
+    //            name = name.replace(/^(de |d’|d')/i, ''); 
+                if(name.length > 0) {
+    //                return name.charAt(0).toUpperCase() + name.slice(1);
+                    return name
+                }
+    //            return '';
+            })
+    //        .filter(item => item.length > 0)
+    //        .sort();
+    }
+
+    const cleanListVoc = processData(vocData);
+    const cleanListPah = processData(pahData);
+
+    // --- RENDERING FUNCTION ---
+    function renderList(type, compounds) {
+        const containerId = (type === 'voc') ? 'checkboxContainerVoc' : 'checkboxContainerPah';
+        const container = document.getElementById(containerId);
+        container.innerHTML = '';
+        
+        compounds.forEach((compound, index) => {
+            const div = document.createElement('div');
+            div.className = 'voc-item';
+            
+            const checkbox = document.createElement('input');
+            checkbox.type = 'checkbox';
+            checkbox.id = `${type}-${index}`; 
+            checkbox.value = compound;
+            checkbox.addEventListener('change', generateText);
+
+            const label = document.createElement('label');
+            label.htmlFor = `${type}-${index}`;
+            label.innerText = compound;
+
+            div.appendChild(checkbox);
+            div.appendChild(label);
+            container.appendChild(div);
+        });
+    }
+
+    // --- CORE LOGIC (GENERATION) ---
+
+    function generateText() {
+    // Liste des lettres voyelles françaises (y compris les voyelles accentuées)
+    // C'est cette liste qui détermine si l'élision (le -> l') doit être appliquée.
+    const VOWEL_LETTERS = ['A', 'a', 'À', 'à', 'E', 'e', 'É', 'é', 'È', 'è', 'I', 'i', 'O', 'o', 'U', 'u'];
+
+    /**
+     * Applique l'élision française pour le déterminant "le" devant un nom.
+     * Si le nom commence par une voyelle (selon VOWEL_LETTERS), retourne "l'Nom",
+     * sinon retourne "le Nom".
+     * @param {string} name - Le nom du composé.
+     * @returns {string} - Le nom formaté avec le déterminant correct ("le Nom" ou "l'Nom").
+     */
+    function formatCompoundName(name) {
+        if (!name || name.length === 0) {
+            return "le [Nom manquant]";
+        }
+        
+        // 1. Prendre la première lettre du nom.
+        const firstLetter = name[0];
+
+        // 2. Vérifier si cette première lettre est dans la liste des voyelles.
+        //    indexOf est utilisé pour la vérification simple d'inclusion dans le tableau.
+        if (VOWEL_LETTERS.indexOf(firstLetter) !== -1) {
+            // ÉLISION : la première lettre est une voyelle.
+            return `l'${name}`;
+        } else {
+            // PAS D'ÉLISION : la première lettre est une consonne.
+            return `le ${name}`;
+        }
+    }
+    
+    // 1. Déterminer l'ensemble de composés à utiliser (uniquement ceux de l'onglet actif)
+    const containerId = (activeCompoundType === 'voc') ? 'checkboxContainerVoc' : 'checkboxContainerPah';
+    const checkedBoxes = Array.from(document.querySelectorAll(`#${containerId} input[type="checkbox"]:checked`));
+    const values = checkedBoxes.map(cb => cb.value);
+    
+    if (values.length === 0) {
+        resultArea.value = "";
+        return;
+    }
+
+    let listString;
+    let finalTemplate;
+    
+    // Remplacement de toutes les occurrences de 'le ${...}' par 'formatCompoundName(...)'
+    // ---------------------------------------------------------------------------------
+
+    // 2. Construire la liste (le C1, le C2... et le CN)
+    if (values.length === 1) {
+        // Case N=1: le C1 -> formatCompoundName(C1)
+        listString = formatCompoundName(values[0]);
+        finalTemplate = templates[activeCompoundType].singular;
+    } else {
+        // Case N >= 2: le C1, le C2, ..., et le CN
+        
+        // La logique complexe de construction de la liste pour N>=2 est simplifiée
+        // en utilisant 'formatCompoundName' pour chaque élément.
+
+        // Re-correction pour la grammaire exacte le C1, le C2 et le C3
+        if (values.length === 2) {
+            // N=2: le C1 et le C2 -> formatCompoundName(C1) et formatCompoundName(C2)
+            listString = `${formatCompoundName(values[0])} et ${formatCompoundName(values[1])}`;
+        } else {
+            // N>=3: le C1, le C2, ..., et le CN
+            const initialPart = values.slice(0, -1).map(c => formatCompoundName(c)).join(', ');
+            const lastCompound = formatCompoundName(values[values.length - 1]);
+            listString = initialPart + ` et ${lastCompound}`;
+        }
+
+        finalTemplate = templates[activeCompoundType].plural;
+    }
+    
+    // Cette section (anciennement les points 2 et 3) est maintenant simplifiée
+    // et ne fait qu'assurer le formatage correct de la liste finale.
+    // L'ancienne logique de gestion des virgules/nombre est conservée dans le 'else' ci-dessus.
+    
+    // 3. Remplacer le placeholder
+    const finalPhrase = finalTemplate.replace('{liste}', listString);
+
+    resultArea.value = finalPhrase;
+}
+    // function generateText() {
+    //     // 1. Déterminer l'ensemble de composés à utiliser (uniquement ceux de l'onglet actif)
+    //     const containerId = (activeCompoundType === 'voc') ? 'checkboxContainerVoc' : 'checkboxContainerPah';
+    //     const checkedBoxes = Array.from(document.querySelectorAll(`#${containerId} input[type="checkbox"]:checked`));
+    //     const values = checkedBoxes.map(cb => cb.value);
+        
+    //     if (values.length === 0) {
+    //         resultArea.value = "";
+    //         return;
+    //     }
+
+    //     let listString;
+    //     let finalTemplate;
+    //     // to fix le Antracene --> l'Antracene
+    //     // list des lettres à corriger: A, a, À, à, E, e, É, é, È, è, I, i, O, o, U, u
+
+
+    //     // 2. Construire la liste (le C1, le C2... et le CN)
+    //     if (values.length === 1) {
+    //         // Case N=1: le C1
+    //         listString = `le ${values[0]}`;
+    //         finalTemplate = templates[activeCompoundType].singular;
+    //     } else {
+    //         // Case N >= 2: le C1, le C2, ..., et le CN
+    //         const initialPart = values.slice(0, -1).map(c => `le ${c}`).join(', ');
+    //         const lastPart = `et le ${values[values.length - 1]}`;
+    //         listString = `${initialPart} et le ${values[values.length - 1]}`; // Correction pour éviter le double "et le"
+            
+    //         // Correction de la liste pour N>=2
+    //         const initialValues = values.slice(0, -1);
+    //         if (initialValues.length > 0) {
+    //              listString = initialValues.map(c => `le ${c}`).join(', ') + ` et le ${values[values.length - 1]}`;
+    //         } else {
+    //              listString = `et le ${values[0]}`; // Cas théorique N=1, mais géré plus haut
+    //         }
+
+
+    //         finalTemplate = templates[activeCompoundType].plural;
+            
+    //         // Re-correction pour la grammaire exacte le C1, le C2 et le C3
+    //         if (values.length === 2) {
+    //             listString = `le ${values[0]} et le ${values[1]}`;
+    //         } else {
+    //             const initialPart = values.slice(0, -1).map(c => `le ${c}`).join(', ');
+    //             listString = initialPart + ` et le ${values[values.length - 1]}`;
+    //         }
+
+    //     }
+        
+    //     // Finalement, on s'assure que la liste ne commence pas par une virgule si N>=2
+    //     if (values.length > 1) {
+    //         listString = values.slice(0, -1).map(c => `le ${c}`).join(', ') + ` et le ${values[values.length - 1]}`;
+    //         if (values.length === 2) {
+    //             // Pour N=2, on veut "le C1 et le C2" (sans virgule)
+    //              listString = `le ${values[0]} et le ${values[1]}`;
+    //         } else {
+    //             // Pour N>=3, on veut "le C1, le C2, le C3 et le C4"
+    //             listString = values.slice(0, -1).map(c => `le ${c}`).join(', ') + ` et le ${values[values.length - 1]}`;
+    //         }
+    //     } else {
+    //          listString = `le ${values[0]}`;
+    //     }
+        
+    //     // 3. Remplacer le placeholder
+    //     const finalPhrase = finalTemplate.replace('{liste}', listString);
+
+    //     resultArea.value = finalPhrase;
+    // }
+
+
+    // --- UI CONTROL FUNCTIONS ---
+
+    function openTab(tabName) {
+        const tabContents = document.querySelectorAll('.tab-content');
+        const tabButtons = document.querySelectorAll('.tab-button');
+        
+        tabContents.forEach(content => content.classList.remove('active'));
+        tabButtons.forEach(button => button.classList.remove('active'));
+
+        document.getElementById(tabName).classList.add('active');
+        document.querySelector(`.tab-button[onclick="openTab('${tabName}')"]`).classList.add('active');
+        
+        activeCompoundType = tabName; // 👈 Mise à jour essentielle
+        generateText(); 
+    }
+
+    function filterList(type) {
+        const inputId = (type === 'voc') ? 'searchInputVoc' : 'searchInputPah';
+        const containerId = (type === 'voc') ? 'checkboxContainerVoc' : 'checkboxContainerPah';
+        
+        const term = document.getElementById(inputId).value.toLowerCase();
+        const items = document.querySelectorAll(`#${containerId} .voc-item`);
+        
+        items.forEach(item => {
+            const label = item.querySelector('label').innerText.toLowerCase();
+            item.style.display = label.includes(term) ? 'flex' : 'none';
+        });
+    }
+
+    function selectAll(type, shouldSelect) {
+        const containerId = (type === 'voc') ? 'checkboxContainerVoc' : 'checkboxContainerPah';
+        const items = document.querySelectorAll(`#${containerId} .voc-item`);
+        
+        items.forEach(item => {
+            if (item.style.display !== 'none') {
+                const cb = item.querySelector('input');
+                cb.checked = shouldSelect;
+            }
+        });
+        generateText();
+    }
+
+    function copyToClipboard() {
+        resultArea.select();
+        document.execCommand('copy');
+    }
+
+    // --- INITIALIZATION ---
+    renderList('voc', cleanListVoc);
+    renderList('pah', cleanListPah);
+    openTab('voc');
+</script>
+</body>
+</html>
