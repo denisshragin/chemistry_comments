@@ -53,7 +53,7 @@
     ```
 === "pH-15°C"
     ```
-    L'analyse du pH- 15°C a été effectuée dans un délai dépassé.
+    L'analyse du pH-15°C a été effectuée dans un délai dépassé.
     ```
 === "pH EP"
     ```
@@ -123,6 +123,10 @@
 === "Général multi client"
     ```
     Les analyses de XXX, de YYY et de ZZZ ont été effectuées dans un délai dépassé, à la demande du client.
+    ```
+=== "pH EU et pH-15°C"
+    ```
+    Les analyses du pH EU et du pH-15°C ont été effectuées dans un délai dépassé.
     ```
 === "Chlore libre et total"
     ```
