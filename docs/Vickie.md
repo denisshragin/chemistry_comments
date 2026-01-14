@@ -10,9 +10,9 @@
     ```
     Température à la réception : * °C.
     ```
-=== "Supérieure à 12°C"
+=== "Supérieure à 12 °C"
     ```
-    La température de l'échantillon à l'arrivée au laboratoire est supérieure à 12°C.
+    La température de l'échantillon à l'arrivée au laboratoire est supérieure à 12 °C.
     ```
 === "Omise"
     ```
@@ -24,7 +24,6 @@
     ```
     Point d'échantillonage : 
     ```
-
 === "Point absent"
     ```
     Le point d'échantillonage exact n'a pas été fourni par le client.
@@ -45,6 +44,10 @@
 === "Échantillon composé"
     ```
     Échantillon composé 24 heures, soit du * au *.
+    ```
+=== "Échantillon composé 00:00-23:59"
+    ```
+    Échantillon composé 24 heures, soit du 00:00 au 23:59
     ```
 === "Échantillon composé + coliformes"
     ```
@@ -107,10 +110,6 @@
 
 ## Délai de conservation dépassé DBO
 
-=== "DBO"
-    ```
-    L'analyse de la Demande biochimique en oxygène a été effectuée dans un délai dépassé.
-    ```
 === "DBOt"
     ```
     L'analyse de la Demande biochimique en oxygène totale a été effectuée dans un délai dépassé.
@@ -129,25 +128,33 @@
     ```
 
 ## Type de captage
-=== "Puits de surface"
+=== "Général"
     ```
-    Type de captage : Puits de surface.
+    Type de captage : *.
     ```
 === "Puits"
     ```
     Type de captage : Puits.
     ```
+=== "Puits de surface"
+    ```
+    Type de captage : Puits de surface.
+    ```
 === "Puits tubulaire"
     ```
     Type de captage : Puits tubulaire.
     ```
+=== "Puits artésien"
+    ```
+    Type de captage : Puits artésien.
+    ```
 
 ## Varia
-=== "Commentaires du client :"
+=== "Commentaires du client"
     ```
     Commentaires du client : 
     ```
-=== "Commentaires à la réception :"
+=== "Commentaires à la réception"
     ```
     Commentaires à la réception : 
     ```
@@ -159,8 +166,6 @@
     ```
     Normes et limites du BNQ. Échantillonneur # * .
     ```
-
-
 
 
 ## Filtration par le client
@@ -185,10 +190,6 @@ L'échantillon pour l'analyse des Métaux dissous a été filtré et préservé 
     ```
 
 ## DBO congélation client
-=== "Général"
-    ```
-    L'échantillon pour l'analyse de la Demande biochimique en oxygène a été congelé par le client. 
-    ```
 === "DBOt"
     ```
     L'échantillon pour l'analyse de la Demande biochimique en oxygène totale a été congelé par le client. 
@@ -207,10 +208,7 @@ L'échantillon pour l'analyse des Métaux dissous a été filtré et préservé 
     ```
 
 ## DBO congélation labo     
-=== "Général"
-    ```
-    L'échantillon pour l'analyse de la Demande biochimique en oxygène a été congelé à la réception au laboratoire.
-    ```
+
 === "DBOt"
     ```
     L'échantillon pour l'analyse de la Demande biochimique en oxygène totale a été congelé à la réception au laboratoire.
@@ -229,11 +227,6 @@ L'échantillon pour l'analyse des Métaux dissous a été filtré et préservé 
     ```
 
 ## DBO congélation client/labo 
-=== "Général"
-    ```
-    L'échantillon pour l'analyse de la Demande biochimique en oxygène a été congelé par le client.
-    L'échantillon pour l'analyse de la Demande biochimique en oxygène a été congelé à la réception au laboratoire. 
-    ```
 
 === "DBOt"
     ```
@@ -282,15 +275,19 @@ L'échantillon pour l'analyse de la Demande biochimique en oxygène a été cong
     ```
 
 ## Unités
-=== "°C"
+=== "Température, °C"
     ```
     °C
     ```
-=== "m3/j"
+=== "Débit, m3/j"
     ```
     m3/j
     ```
-=== "mg/L"
+=== "Concentration, mg/L "
     ```
     mg/L
+    ```
+=== "Conductivité, µS/cm "
+    ```
+    µS/cm
     ```

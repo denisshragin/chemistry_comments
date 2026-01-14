@@ -4,15 +4,15 @@
 
 === "Client"
     ```
-    Température mesurée par le client : *°C.
+    Température mesurée par le client : * °C.
     ```
 === "Réception"
     ```
-    Température à la réception : *°C.
+    Température à la réception : * °C.
     ```
 === "Supérieure à 12°C"
     ```
-    La température de l'échantillon à l'arrivée au laboratoire est supérieure à 12°C.
+    La température de l'échantillon à l'arrivée au laboratoire est supérieure à 12 °C.
     ```
 === "Omise"
     ```
@@ -32,7 +32,7 @@
     ```
     L'information concernant le nom du préleveur n'a pas été fournie par le client.
     ```
-=== "Date absent"
+=== "Date absente"
     ```
     La date de prélèvement n'a pas été indiquée par le client. La date de la veille de la réception a été indiquée par default.
     ```
@@ -203,10 +203,6 @@ L'échantillon pour l'analyse des Métaux dissous a été filtré et préservé 
     L'échantillon a été congelé au laboratoire afin de respecter le délai de conservation.
     ```
 ## DBO congélation client
-=== "Général"
-    ```
-    L'échantillon pour l'analyse de la Demande biochimique en oxygène a été congelé par le client. 
-    ```
 === "DBOt"
     ```
     L'échantillon pour l'analyse de la Demande biochimique en oxygène totale a été congelé par le client. 
@@ -225,10 +221,6 @@ L'échantillon pour l'analyse des Métaux dissous a été filtré et préservé 
     ```
 
 ## DBO congélation labo     
-=== "Général"
-    ```
-    L'échantillon pour l'analyse de la Demande biochimique en oxygène a été congelé à la réception au laboratoire.
-    ```
 === "DBOt"
     ```
     L'échantillon pour l'analyse de la Demande biochimique en oxygène totale a été congelé à la réception au laboratoire.
@@ -247,12 +239,6 @@ L'échantillon pour l'analyse des Métaux dissous a été filtré et préservé 
     ```
 
 ## DBO congélation client/labo 
-=== "Général"
-    ```
-    L'échantillon pour l'analyse de la Demande biochimique en oxygène a été congelé par le client.
-    L'échantillon pour l'analyse de la Demande biochimique en oxygène a été congelé à la réception au laboratoire. 
-    ```
-
 === "DBOt"
     ```
     L'échantillon pour l'analyse de la Demande biochimique en oxygène totale a été congelé par le client.
@@ -293,11 +279,11 @@ The pH analysis was performed after the holding time has expired.
 ```
 
 ## Varia
-=== "Commentaires du client :"
+=== "Commentaires du client"
     ```
     Commentaires du client : 
     ```
-=== "Commentaires à la réception :"
+=== "Commentaires à la réception"
     ```
     Commentaires à la réception : 
     ```
