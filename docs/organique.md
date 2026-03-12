@@ -4,39 +4,35 @@
     ```
     L'analyse de XXX a été effectuée dans un délai dépassé.
     ```
-=== "DBO"
-    ```
-    L'analyse de la Demande biochimique en oxygène a été effectuée dans un délai dépassé.
-    ```
 === "C10C50"
     ```
     L'analyse des Hydrocarbures Pétroliers (C10-C50) a été effectuée dans un délai dépassé.
     ```    
+=== "HAP"
+    ```
+    L'analyse des Hydrocarbures aromatiques polycycliques a été effectuée dans un délai dépassé.
+    ``` 
 === "C10C50 et HAP"
     ```
     Les analyses des Hydrocarbures aromatiques polycycliques et des Hydrocarbures Pétroliers (C10-C50) ont été effectuées dans un délai dépassé.
     ```
 ## Délai de conservation dépassé DBO
 
-=== "DBO"
-    ```
-    L'analyse de la Demande biochimique en oxygène a été effectuée dans un délai dépassé.
-    ```
-=== "DBOc"
-    ```
-    L'analyse de la Demande biochimique en oxygène carbonée a été effectuée dans un délai dépassé.
-    ```
-=== "DBOt"
+=== "DBO totale"
     ```
     L'analyse de la Demande biochimique en oxygène totale a été effectuée dans un délai dépassé.
     ```
-=== "DBOc et d"
+=== "DBO carbonée"
     ```
-    L'analyse de la Demande biochimique en oxygène carbonée et dissous a été effectuée dans un délai dépassé.
+    L'analyse de la Demande biochimique en oxygène carbonée a été effectuée dans un délai dépassé.
     ```
-=== "DBOd"
+=== "DBO dsissous"
     ```
     L'analyse de la Demande biochimique en oxygène dissous a été effectuée dans un délai dépassé.
+    ```
+=== "DBO carbonée et dissous"
+    ```
+    L'analyse de la Demande biochimique en oxygène carbonée et dissous a été effectuée dans un délai dépassé.
     ```
 
 
@@ -71,6 +67,10 @@
     ```
     Huiles et graisses totales - Gravimétrie : Agent de conservation insuffisant, pH ajusté au laboratoire.
     ```
+=== "HGT et HGM"
+    ```
+    Huiles et graisses totales - Gravimétrie, Huiles et graisses minérales - Gravimétrie : Agent de conservation insuffisant, pH ajusté au laboratoire.
+    ```
 
 ## Limite(s) rapportée(s) augmentée(s)
 ### LR augmentée(s) : Interférence de la matrice
@@ -82,11 +82,17 @@
     ```
     XXX : Les limites rapportées ont été augmentées dues à une interférence de la matrice.
     ```
-### LR augmentée(s) : Dilution en raison de la matrice
+### LR augmentée - mono : Dilution en raison de la matrice
 === "Mono-paramètre"
     ```
     XXX : La limite rapportée a été augmentée due à une dilution de l’échantillon en raison de la matrice.
     ```
+=== "HGM"
+    ```
+    Huiles et graisses minérales- Gravimétrie : La limite rapportée a été augmentée due à une dilution de l’échantillon en raison de la matrice.
+    ```
+
+### LR augmentées - multi : Dilution en raison de la matrice
 === "Multi-paramètres"
     ```
     XXX : Les limites rapportées ont été augmentées dues à une dilution de l’échantillon en raison de la matrice.
@@ -115,10 +121,11 @@
 === "HAP"
     ```
     Hydrocarbures aromatiques polycycliques : En raison d'un pourcentage d'humidité élevé, les limites rapportées ont été augmentées.
+    ```
 === "COV"
     ```
     COV : En raison d'un pourcentage d'humidité élevé, les limites rapportées ont été augmentées.
-    ```    ```
+    ```
 
 ### LR augmentée(s) : Quantité insuffisant d'échantillon
 === "Mono"
@@ -132,24 +139,6 @@
 === "HGT"
     ```
     Huiles et graisses totales- Gravimétrie : La limite rapportée a été augmentée due à une quantité insuffisante d'échantillon.
-    ```
-
-### LR augmenté(es) : % d'humidité élevé
-=== "Mono"
-    ```
-    XXX : En raison d'un pourcentage d'humidité élevé, la limite rapportée a été augmentée.
-    ```
-=== "Multi"
-    ```
-    XXX : En raison d'un pourcentage d'humidité élevé, les limites rapportées ont été augmentées.
-    ```
-=== "COV"
-    ```
-    COV : En raison d'un pourcentage d'humidité élevé, les limites rapportées ont été augmentées.
-    ```
-=== "Hydrocarbures aromatiques polycycliques"
-    ```
-    Hydrocarbures aromatiques polycycliques : En raison d'un pourcentage d'humidité élevé, les limites rapportées ont été augmentées.
     ```
 
 
@@ -234,8 +223,6 @@ Composés organiques volatils Règ.EP D140 : Les matériaux de référence le Ch
 ```
 La récupération de l’étalon de recouvrement D4-1,2-dichloroéthane est hors des critères d’acceptabilité, mais aucun impact sur les résultats de l’échantillon.
 ```
-
-La récupération de l’étalon de recouvrement D4-1,2-dichloroéthane est hors des critères d’acceptabilité, mais cela n’a aucun impact sur les résultats de l’échantillon.
 
 ## C10-C50 et HAP
 C10-C50, Erreur de manipulation

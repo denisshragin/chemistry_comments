@@ -29,9 +29,8 @@ Lixiviation TCLP : Masse insuffisante pour le pré-test.
     ```
 
 ## Filtration pour l'analyse des Métaux solubles à l'acide
-=== "Métaux solubles à l'acide"
 ```
-    L'échantillon a été filtré pour l'analyse des Métaux solubles à l'acide.
+L'échantillon a été filtré pour l'analyse des Métaux solubles à l'acide.
 ```
 
 

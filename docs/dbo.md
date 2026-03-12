@@ -2,10 +2,6 @@
 
 ## Délai de conservation dépassé
 
-=== "DBO"
-    ```
-    L'analyse de la Demande biochimique en oxygène a été effectuée dans un délai dépassé.
-    ```
 === "DBO totale"
     ```
     L'analyse de la Demande biochimique en oxygène totale a été effectuée dans un délai dépassé.
@@ -28,10 +24,6 @@
     ```
 ## Congélation client
 
-=== "Général"
-    ```
-    L'échantillon pour l'analyse de la Demande biochimique en oxygène a été congelé par le client. 
-    ```
 === "DBOt"
     ```
     L'échantillon pour l'analyse de la Demande biochimique en oxygène totale a été congelé par le client. 
@@ -40,21 +32,14 @@
     ```
     L'échantillon pour l'analyse de la Demande biochimique en oxygène carbonée a été congelé par le client. 
     ```
-=== "DBOd"
+=== "DBOt et DBOc"
     ```
-    L'échantillon pour l'analyse de la Demande biochimique en oxygène dissous a été congelé par le client. 
-    ```
-=== "DBOc et d"
-    ```
-    L'échantillon pour l'analyse de la Demande biochimique en oxygène carbonée et dissous a été congelé par le client. 
+    L'échantillon pour l'analyse de la Demande biochimique en oxygène totale a été congelé par le client.
+    L'échantillon pour l'analyse de la Demande biochimique en oxygène carbonée a été congelé par le client.  
     ```
 
 ## Congélation labo 
 
-=== "DBO"
-    ```
-    L'échantillon pour l'analyse de la Demande biochimique en oxygène a été congelé à la réception au laboratoire. 
-    ```
 === "DBO totale"
     ```
     L'échantillon pour l'analyse de la Demande biochimique en oxygène totale a été congelé à la réception au laboratoire. 
@@ -73,11 +58,7 @@
     ```
 
 ## Congélation client/labo 
-=== "Général"
-    ```
-    L'échantillon pour l'analyse de la Demande biochimique en oxygène a été congelé par le client.
-    L'échantillon pour l'analyse de la Demande biochimique en oxygène a été congelé à la réception au laboratoire. 
-    ```
+
 === "DBOt"
     ```
     L'échantillon pour l'analyse de la Demande biochimique en oxygène totale a été congelé par le client.
@@ -88,16 +69,6 @@
     L'échantillon pour l'analyse de la Demande biochimique en oxygène carbonée a été congelé par le client.
     L'échantillon pour l'analyse de la Demande biochimique en oxygène carbonée a été congelé à la réception au laboratoire. 
     ```
-=== "DBOd"
-    ```
-    L'échantillon pour l'analyse de la Demande biochimique en oxygène dissous a été congelé par le client.
-    L'échantillon pour l'analyse de la Demande biochimique en oxygène dissous a été congelé à la réception au laboratoire. 
-    ```
-=== "DBOc et d"
-    ```
-    L'échantillon pour l'analyse de la Demande biochimique en oxygène carbonée et dissous a été congelé par le client.
-    L'échantillon pour l'analyse de la Demande biochimique en oxygène carbonée et dissous a été congelé à la réception au laboratoire. 
-    ```
 
 
 ## DBO reçue décongelée
@@ -107,10 +78,6 @@ L'échantillon pour l'analyse de la Demande biochimique en oxygène a été cong
 
 ## Analyse en reprise sur un échantillon congelé:
 
-=== "DBO reprise"
-    ```
-    L'analyse de la Demande biochimique en oxygène a été effectuée en reprise sur un échantillon congelé.
-    ```
 === "DBO totale reprise"
     ```
     L'analyse de la Demande biochimique en oxygène totale a été effectuée en reprise sur un échantillon congelé.
@@ -129,11 +96,7 @@ L'échantillon pour l'analyse de la Demande biochimique en oxygène a été cong
     ```
 
 ## Congélation au labo + analyse en reprise
-=== "DBO"
-    ```
-    L'échantillon pour l'analyse de la Demande biochimique en oxygène a été congelé à la réception au laboratoire. 
-    L'analyse de la Demande biochimique en oxygène a été effectuée en reprise sur un échantillon congelé.
-    ```
+
 === "DBO totale"
     ```
     L'échantillon pour l'analyse de la Demande biochimique en oxygène totale a été congelé à la réception au laboratoire. 
@@ -168,10 +131,7 @@ L'échantillon pour l'analyse de la Demande biochimique en oxygène a été cong
 ## Anglais
 
 ### Frozen-client
-=== "BOD "
-    ```
-    The sample for Biochemical Oxygen Demand analysis was frozen by the client.
-    ```
+
 === "Total"
     ```
     The sample for Total Biochemical Oxygen Demand analysis was frozen by the client.
@@ -180,21 +140,14 @@ L'échantillon pour l'analyse de la Demande biochimique en oxygène a été cong
     ```
     The sample for Carbonaceous Biochemical Oxygen Demand analysis was frozen by the client.
     ```
-=== "Dissolved"
+=== "Total and Carbo"
     ```
-    The sample for Dissolved Biochemical Oxygen Demand analysis was frozen by the client.
-    ```
-=== "Carbo et dissolved"
-    ```
-    The sample for Dissolved Carbonaceous Biochemical Oxygen Demand analysis was frozen by the client.
+    The sample for Total Biochemical Oxygen Demand analysis was frozen by the client.
+    The sample for Carbonaceous Biochemical Oxygen Demand analysis was frozen by the client.
     ```
 
 ### Frozen-lab
 
-=== "BOD frozen-lab"
-    ```
-    The sample for Biochemical Oxygen Demand analysis was frozen upon reception at the laboratory.
-    ```
 === "Total"
     ```
     The sample for Total Biochemical Oxygen Demand analysis was frozen upon reception at the laboratory.
@@ -213,11 +166,7 @@ L'échantillon pour l'analyse de la Demande biochimique en oxygène a été cong
     ```
 
 ### Frozen-client/lab
-=== "General"
-    ```
-    The sample for Biochemical Oxygen Demand analysis was frozen by the client.
-    The sample for Biochemical Oxygen Demand analysis was frozen upon reception at the laboratory.
-    ```
+
 === "Total"
     ```
     The sample for Total Biochemical Oxygen Demand analysis was frozen by the client.
@@ -231,14 +180,19 @@ L'échantillon pour l'analyse de la Demande biochimique en oxygène a été cong
 
 
 ### Repeat test
-=== "BOD retest"
+
+=== "BOD Total retest"
     ```
-    The Biochemical Oxygen Demand analysis was performed as a repeat test on a frozen sample.
+    The Total Biochemical Oxygen Demand analysis was performed as a repeat test on a frozen sample.
+    ```
+=== "BOD Carbo retest"
+    ```
+    The Carbonaceous Biochemical Oxygen Demand analysis was performed as a repeat test on a frozen sample.
     ```
 
 ### Conditions de conservations sont non-conformes:
 
 Conservation à la température ambiante
 ```
-Demande biochimique en oxygène totale : Notez que les conditions de conservation au laboratoire n'ont pas été respectés, car l'échantillon a été conservé à la température ambiante de la réception jusqu'à l'analyse. Le résultat a été remis à la demande du client.
+Demande biochimique en oxygène totale : Notez que les conditions de conservation au laboratoire n'ont pas été respectés, car l'échantillon a été conservé à la température ambiante de la réception jusqu'à l'analyse.
 ```

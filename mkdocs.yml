@@ -1,7 +1,7 @@
 site_name: Commentaires
 site_url: https://denisshragin.github.io/chemistry_comments/
 nav:
-  - Home page: 'index.md'
+  - Home page: "index.md"
   - Réception: "reception.md"
   - Métaux: "metaux.md"
   - Inorganique: "inorganique.md"
@@ -9,9 +9,11 @@ nav:
   - DBO: "dbo.md"
   - Inter-paramètres: 'inter_param.md'
   - Autres: "autres.md"
-  - MR_COV_HAP: "comments_MR_COV_HAP.html"
+  - MR_COV_HAP: "MR_COV_HAP.md"
+
 theme: 
   name: material
+  custom_dir: overrides
   features:
   - navigation.tabs
   - navigation.tabs.sticky
@@ -20,7 +22,7 @@ theme:
   palette:
     primary: teal
 
-copyright: Copyright &copy; 2025  Denis Shragin
+copyright: Copyright &copy; 2025-2026  Denis Shragin
 
 markdown_extensions:
   - pymdownx.superfences

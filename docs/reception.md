@@ -10,7 +10,7 @@
     ```
     Température à la réception : * °C.
     ```
-=== "Supérieure à 12°C"
+=== "Supérieure à 12 °C"
     ```
     La température de l'échantillon à l'arrivée au laboratoire est supérieure à 12 °C.
     ```
@@ -41,6 +41,48 @@
     Autorisation à transmettre les résultats d'analyses aux préleveurs.
     ```
 
+## Échantillon composé
+=== "Échantillon composé"
+    ```
+    Échantillon composé 24 heures, soit du * au *.
+    ```
+=== "Échantillon composé 00:00-23:59"
+    ```
+    Échantillon composé 24 heures, soit du 00:00 au 23:59.
+    ```
+=== "Échantillon composé + coliformes"
+    ```
+    Échantillon composé 24 heures, soit du * au *. Le prélèvement pour l'analyse des coliformes fécaux est un échantillonage instantané en date du *.
+    ```
+
+## Reçu et analysé en délai dépassé (pH et Chlore)
+
+=== "Général"
+    ```
+    L'échantillon pour l'analyse de XXX a été reçu et analysé après l'expiration du délai d'analyse reglemantaire.
+    ```
+=== "pH EU"
+    ```
+    L'échantillon pour l'analyse du pH EU a été reçu et analysé après l'expiration du délai d'analyse reglemantaire.
+    ```
+=== "pH-15°C"
+    ```
+    L'échantillon pour l'analyse du pH-15°C a été reçu et analysé après l'expiration du délai d'analyse reglemantaire.
+    ```
+=== "Chlore libre"
+    ```
+    L'échantillon pour l'analyse du Chlore résiduel libre a été reçu et analysé après l'expiration du délai d'analyse reglemantaire.
+    ```
+=== "Chlore total"
+    ```
+    L'échantillon pour l'analyse du Chlore résiduel total a été reçu et analysé après l'expiration du délai d'analyse reglemantaire.
+    ```
+=== "Oxygène dissous"
+    ```
+    L'échantillon pour l'analyse de l'Oxygène dissous a été reçu et analysé après l'expiration du délai d'analyse reglemantaire.
+    ```
+
+
 ## Délai de conservation dépassé (1 analyse)
 
 === "Général mono"
@@ -59,6 +101,14 @@
     ```
     L'analyse du pH EP a été effectuée dans un délai dépassé.
     ```
+=== "Nitrites et Nitrates"
+    ```
+    L'analyse des Nitrites et Nitrates a été effectuée dans un délai dépassé.
+    ```
+=== "Orthophosphates"
+    ```
+    L'analyse des Orthophosphates a été effectuée dans un délai dépassé.
+    ```
 === "MES"
     ```
     L'analyse des Matières en suspension a été effectuée dans un délai dépassé.
@@ -70,18 +120,6 @@
 === "C10C50 et HAP"
     ```
     Les analyses des Hydrocarbures aromatiques polycycliques et des Hydrocarbures Pétroliers (C10-C50) ont été effectuées dans un délai dépassé.
-    ```
-=== "Oxygène dissous"
-    ```
-    L'analyse de l'Oxygène dissous a été effectuée dans un délai dépassé.
-    ```
-=== "Nitrites et Nitrates"
-    ```
-    L'analyse des Nitrites et Nitrates a été effectuée dans un délai dépassé.
-    ```
-=== "Orthophosphates"
-    ```
-    L'analyse des Orthophosphates a été effectuée dans un délai dépassé.
     ```
 
 ## Délai de conservation dépassé (1 analyse) demande du client
@@ -115,7 +153,7 @@
     L'analyse de la Demande biochimique en oxygène carbonée a été effectuée dans un délai dépassé, à la demande du client.
     ```
 
-## Délai de conservation dépassé (> 1 analyse)
+## Délai de conservation dépassé (2 analyses et plus)
 === "Général multi"
     ```
     Les analyses de XXX, de YYY et de ZZZ ont été effectuées dans un délai dépassé.
@@ -139,10 +177,6 @@
 
 ## Délai de conservation dépassé DBO
 
-=== "DBO"
-    ```
-    L'analyse de la Demande biochimique en oxygène a été effectuée dans un délai dépassé.
-    ```
 === "DBOt"
     ```
     L'analyse de la Demande biochimique en oxygène totale a été effectuée dans un délai dépassé.
@@ -188,6 +222,10 @@ L'échantillon pour l'analyse des Métaux dissous a été filtré et préservé 
     ```
     Type de captage : Puits tubulaire.
     ```
+=== "Puits artésien"
+    ```
+    Type de captage : Puits artésien.
+    ```
 
 ## Échantillon - congélation 
 === "Congélation-client"
@@ -211,13 +249,10 @@ L'échantillon pour l'analyse des Métaux dissous a été filtré et préservé 
     ```
     L'échantillon pour l'analyse de la Demande biochimique en oxygène carbonée a été congelé par le client. 
     ```
-=== "DBOd"
+=== "DBOt et DBOc"
     ```
-    L'échantillon pour l'analyse de la Demande biochimique en oxygène dissous a été congelé par le client. 
-    ```
-=== "DBOc et d"
-    ```
-    L'échantillon pour l'analyse de la Demande biochimique en oxygène carbonée et dissous a été congelé par le client. 
+    L'échantillon pour l'analyse de la Demande biochimique en oxygène totale a été congelé par le client.
+    L'échantillon pour l'analyse de la Demande biochimique en oxygène carbonée a été congelé par le client.  
     ```
 
 ## DBO congélation labo     
@@ -249,33 +284,49 @@ L'échantillon pour l'analyse des Métaux dissous a été filtré et préservé 
     L'échantillon pour l'analyse de la Demande biochimique en oxygène carbonée a été congelé par le client.
     L'échantillon pour l'analyse de la Demande biochimique en oxygène carbonée a été congelé à la réception au laboratoire. 
     ```
-=== "DBOd"
-    ```
-    L'échantillon pour l'analyse de la Demande biochimique en oxygène dissous a été congelé par le client.
-    L'échantillon pour l'analyse de la Demande biochimique en oxygène dissous a été congelé à la réception au laboratoire. 
-    ```
-=== "DBOc et d"
-    ```
-    L'échantillon pour l'analyse de la Demande biochimique en oxygène carbonée et dissous a été congelé par le client.
-    L'échantillon pour l'analyse de la Demande biochimique en oxygène carbonée et dissous a été congelé à la réception au laboratoire. 
-    ```
 
 ## DBO reçu décongelée
 ```
-L'échantillon pour l'analyse de la Demande biochimique en oxygène a été congelé par le client, mais a été reçu décongelé.
+L'échantillon pour l'analyse de la Demande biochimique en oxygène XXX a été congelé par le client, mais a été reçu décongelé.
 ```
 
 ## Anglais
-=== "BOD frozen-client"
+### BOD Frozen-client
+
+=== "Total BOD"
     ```
-    The sample for Biochemical Oxygen Demand analysis was frozen by the client.
+    The sample for Total Biochemical Oxygen Demand analysis was frozen by the client.
     ```
-=== "BOD frozen-lab"
+=== "Carbonaceous BOD"
     ```
-    The sample for Biochemical Oxygen Demand analysis was frozen upon reception at the laboratory.
+    The sample for Carbonaceous Biochemical Oxygen Demand analysis was frozen by the client.
     ```
+
+### BOD Frozen-lab
+
+=== "Total BOD"
+    ```
+    The sample for Total Biochemical Oxygen Demand analysis was frozen upon reception at the laboratory.
+    ```
+=== "Carbonaceous BOD"
+    ```
+    The sample for Carbonaceous Biochemical Oxygen Demand analysis was frozen upon reception at the laboratory.
+    ```
+=== "Dissolved BOD"
+    ```
+    The sample for Dissolved Biochemical Oxygen Demand analysis was frozen upon reception at the laboratory.
+    ```
+=== "Carbonaceous et dissolved BOD"
+    ```
+    The sample for Dissolved Carbonaceous Biochemical Oxygen Demand analysis was frozen upon reception at the laboratory.
+    ```
+### pH expired
 ```
 The pH analysis was performed after the holding time has expired.
+```
+### Dissolved Metals
+```
+The sample for Dissolved Metals analysis was filtered and preserved in the field.
 ```
 
 ## Varia
@@ -293,7 +344,7 @@ The pH analysis was performed after the holding time has expired.
     ```
 === "BNQ"
     ```
-    Normes et limites du BNQ. Échantillonneur # * .
+    Commentaires du client : Normes et limites du BNQ. Échantillonneur # * .
     ```
 
 ## Unités

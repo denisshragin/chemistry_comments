@@ -61,3 +61,9 @@ Les résultats des Phosphores totaux et des Ortho-phosphates ne respectent pas l
 ```
 Les résultats de XXX et de XXX ne respectent pas les critères de comparaison inter-paramètres. Les résultats des 2 analyses ont été confirmés en reprise.
 ```
+### HGT vs C10-C50
+
+```
+Les résultats des Huiles et graisses totales- Gravimétrie et de Hydrocarbures Pétroliers (C10-C50) ne respectent pas les critères de comparaison inter-paramètres.
+Noter que le laboratoire n'est pas en mesure de reprendre ces analyses puisque le contenu total des 2 bouteilles a été utilisé pour effectuer les analyses (prendre note que pour ces 2 analyses, des bouteilles distinctes ont été utilisées).
+```
