@@ -55,33 +55,6 @@
     Échantillon composé 24 heures, soit du * au *. Le prélèvement pour l'analyse des coliformes fécaux est un échantillonage instantané en date du *.
     ```
 
-## Reçu et analysé en délai dépassé (pH et Chlore)
-
-=== "Général"
-    ```
-    L'échantillon pour l'analyse de XXX a été reçu et analysé après l'expiration du délai d'analyse reglemantaire.
-    ```
-=== "pH EU"
-    ```
-    L'échantillon pour l'analyse du pH EU a été reçu et analysé après l'expiration du délai d'analyse reglemantaire.
-    ```
-=== "pH-15°C"
-    ```
-    L'échantillon pour l'analyse du pH-15°C a été reçu et analysé après l'expiration du délai d'analyse reglemantaire.
-    ```
-=== "Chlore libre"
-    ```
-    L'échantillon pour l'analyse du Chlore résiduel libre a été reçu et analysé après l'expiration du délai d'analyse reglemantaire.
-    ```
-=== "Chlore total"
-    ```
-    L'échantillon pour l'analyse du Chlore résiduel total a été reçu et analysé après l'expiration du délai d'analyse reglemantaire.
-    ```
-=== "Oxygène dissous"
-    ```
-    L'échantillon pour l'analyse de l'Oxygène dissous a été reçu et analysé après l'expiration du délai d'analyse reglemantaire.
-    ```
-
 
 ## Délai de conservation dépassé (1 analyse)
 
@@ -101,6 +74,10 @@
     ```
     L'analyse du pH EP a été effectuée dans un délai dépassé.
     ```
+=== "MES"
+    ```
+    L'analyse des Matières en suspension a été effectuée dans un délai dépassé.
+    ```
 === "Nitrites et Nitrates"
     ```
     L'analyse des Nitrites et Nitrates a été effectuée dans un délai dépassé.
@@ -108,10 +85,6 @@
 === "Orthophosphates"
     ```
     L'analyse des Orthophosphates a été effectuée dans un délai dépassé.
-    ```
-=== "MES"
-    ```
-    L'analyse des Matières en suspension a été effectuée dans un délai dépassé.
     ```
 === "DCO dissous"
     ```
@@ -166,13 +139,40 @@
     ```
     Les analyses du pH EU et du pH-15°C ont été effectuées dans un délai dépassé.
     ```
-=== "Chlore libre et total"
+=== "Cl libre et Cl total"
     ```
     Les analyses du Chlore résiduel libre et du Chlore résiduel total ont été effectuées dans un délai dépassé.
     ```
 === "Nitrites, Nitrates, Nitrites et Nitrates"
     ```
     Les analyses des Nitrites, des Nitrates et des Nitrites et Nitrates ont été effectuées dans un délai dépassé.
+    ```
+
+## Reçu et analysé en délai dépassé (pH et Chlore)
+
+=== "Général"
+    ```
+    L'échantillon pour l'analyse de XXX a été reçu et analysé après l'expiration du délai d'analyse reglemantaire.
+    ```
+=== "pH EU"
+    ```
+    L'échantillon pour l'analyse du pH EU a été reçu et analysé après l'expiration du délai d'analyse reglemantaire.
+    ```
+=== "pH-15°C"
+    ```
+    L'échantillon pour l'analyse du pH-15°C a été reçu et analysé après l'expiration du délai d'analyse reglemantaire.
+    ```
+=== "Chlore libre"
+    ```
+    L'échantillon pour l'analyse du Chlore résiduel libre a été reçu et analysé après l'expiration du délai d'analyse reglemantaire.
+    ```
+=== "Chlore total"
+    ```
+    L'échantillon pour l'analyse du Chlore résiduel total a été reçu et analysé après l'expiration du délai d'analyse reglemantaire.
+    ```
+=== "Oxygène dissous"
+    ```
+    L'échantillon pour l'analyse de l'Oxygène dissous a été reçu et analysé après l'expiration du délai d'analyse reglemantaire.
     ```
 
 ## Délai de conservation dépassé DBO

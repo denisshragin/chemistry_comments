@@ -4,10 +4,6 @@
     ```
     L'analyse de XXX a été effectuée dans un délai dépassé.
     ```
-=== "pH"
-    ```
-    L'analyse du pH a été effectuée dans un délai dépassé.
-    ```
 === "pH EU"
     ```
     L'analyse du pH EU a été effectuée dans un délai dépassé.
@@ -32,9 +28,30 @@
     ```
     L'analyse des Orthophosphates a été effectuée dans un délai dépassé.
     ```
-```
-The pH analysis was performed after the holding time has expired.
-```
+
+## Reprise en délai dépassé
+
+=== "Général"
+    ```
+    L'analyse de XXX a été effectuée en reprise dans un délai dépassé.
+    ```
+=== "pH EU"
+    ```
+    L'analyse du pH EU a été effectuée en reprise dans un délai dépassé.
+    ```
+=== "pH EP"
+    ```
+    L'analyse du pH EP a été effectuée en reprise dans un délai dépassé.
+    ```
+=== "pH-15°C"
+    ```
+    L'analyse du pH-15°C a été effectuée en reprise dans un délai dépassé.
+    ```
+=== "MES"
+    ```
+    L'analyse des Matières en suspension a été effectuée en reprise dans un délai dépassé.
+    ```
+
 
 ## Délai de conservation dépassé (> 1 analyse)
 === "Général multi"
@@ -45,7 +62,11 @@ The pH analysis was performed after the holding time has expired.
     ```
     Les analyses de XXX, de YYY et de ZZZ ont été effectuées dans un délai dépassé, à la demande du client.
     ```
-=== "Chlore libre et total"
+=== "pH EU et pH-15°C"
+    ```
+    Les analyses du pH EU et du pH-15°C ont été effectuées dans un délai dépassé.
+    ```
+=== "Cl libre et Cl total"
     ```
     Les analyses du Chlore résiduel libre et du Chlore résiduel total ont été effectuées dans un délai dépassé.
     ```
@@ -138,4 +159,8 @@ The result of non-ionized ammonia nitrogen was calculated at 25°C.
 Votre eau est conforme aux normes pour les paramètres physico-chimiques analysés.
 ```
 Your water complies with the standards for the physicochemical parameters analyzed.
+```
+pH expiried
+```
+The pH analysis was performed after the holding time has expired.
 ```
