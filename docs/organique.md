@@ -26,7 +26,7 @@
     ```
     L'analyse de la Demande biochimique en oxygène carbonée a été effectuée dans un délai dépassé.
     ```
-=== "DBO dsissous"
+=== "DBO dissous"
     ```
     L'analyse de la Demande biochimique en oxygène dissous a été effectuée dans un délai dépassé.
     ```
@@ -225,6 +225,11 @@ La récupération de l’étalon de recouvrement D4-1,2-dichloroéthane est hors
 ```
 
 ## C10-C50 et HAP
+
+C10-C50, LR augmentée interférence + % hum
+```
+Hydrocarbures Pétroliers (C10-C50) : La limite rapportée a été augmentée due à une interférence de la matrice et à un taux d'humidité élevé.
+```
 C10-C50, Erreur de manipulation
 ```
 Hydrocarbures Pétroliers (C10-C50) : À cause d'une erreur de manipulation la meilleure limite rapportée ne peut pas être fournie.
@@ -255,9 +260,13 @@ HAP, Surrogates trop élevés
 ```
 Hydrocarbures aromatiques polycycliques : Les étalons de recouvrement sont non conformes, trop élevés, les résultats peuvent être surévalués.
 ```
-HAP, surrogates bas
+HAP, surrogates bas, effet matrice
 ```
 Les récupérations des étalons de recouvrement sont hors des critères d'acceptabilité en raison d’un effet de matrice. Les résultats sont à interpréter avec diligence et discernement.
+```
+HAP, surro bas
+```
+Hydrocarbures aromatiques polycycliques : les récupérations des étalons de recouvrement ne respectent pas les critères d’acceptabilité. Par conséquent, les résultats peuvent être sous‑estimés.
 ```
 HAP, MR non-conforme (trop fort)
 ```
