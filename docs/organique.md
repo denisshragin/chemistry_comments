@@ -283,7 +283,7 @@ Hydrocarbures aromatiques polycycliques : Certains composés sont en dehors de n
 ```
 Hydrocarbures aromatiques polycycliques : Le Phénanthrène est en dehors de notre domaine de linéarité, cependant, une reprise est impossible car il ne restait pas assez d’échantillon. Les résultats peuvent être sous-évalués.
 ```
-HAP, Surrogates oiubliés :
+HAP, Surrogates oubliés :
 ```
 Hydrocarbures aromatiques polycycliques : À cause d'une erreur de manipulation les récupérations des étalons de recouvrement ne sont pas disponibles, mais aucun impact sur le résultat de l'échantillon.
 ```
@@ -385,6 +385,31 @@ Blanc positif soustrait du résultat pour l'analyse de la Chlorophylle A.
 ```
 Le rapport des corps étrangers est en annexe.
 ```
+```
+Les corps étrangers tranchants sont des polymères synthétiques et du verre.
+```
+```
+Les corps étrangers tranchants sont des XX et du XX.
+```
+=== "Corps tranchants-mono"
+    ```
+    Le corps étranger tranchant est du XX.
+    ```
+=== "Polymère"
+    ```
+    Le corps étranger tranchant est un polymère synthétique.
+    ```
+=== "Verre"
+    ```
+    Le corps étranger tranchant est du verre.
+    ```
+=== "Métal"
+    ```
+    Le corps étranger tranchant est du métal.
+    ```
+ 
+Allo Denis! Est-ce qu'on peut rajouter cette ligne de commentaire pour les corps étrangers? : 
+Échantillon liquide. Analyse effectuée avec une dérogation de méthode.
 
 ## B(a)P Hygiène
 LR augmentée (pour le support)
@@ -398,6 +423,13 @@ Benzo[a]pyrène-Hygiène : La limite rapportée a été augmentée due à une di
 ## MSB
 ```
 Blanc positif non-soustrait du résultat pour l’analyse des Matières solubles dans le benzène.
+```
+
+
+## IPP
+
+```
+Interprétation des phydrocarbures péroliers (C10-C50): patron chromatographique est trop faible pour l'interprétation.
 ```
 
 ## DCO / DBO
