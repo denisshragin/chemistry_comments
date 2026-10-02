@@ -72,9 +72,14 @@
 
 
 ## DBO reçue décongelée
-```
-L'échantillon pour l'analyse de la Demande biochimique en oxygène a été congelé par le client, mais a été reçu décongelé.
-```
+=== "DBO totale"
+    ```
+    L'échantillon pour l'analyse de la Demande biochimique en oxygène totale a été congelé par le client, mais a été reçu décongelé.
+    ```
+=== "DBO carbonée"
+    ```
+    L'échantillon pour l'analyse de la Demande biochimique en oxygène carbonée a été congelé par le client, mais a été reçu décongelé.
+    ```
 
 ## Analyse en reprise sur un échantillon congelé:
 
@@ -196,3 +201,20 @@ Conservation à la température ambiante
 ```
 Demande biochimique en oxygène totale : Notez que les conditions de conservation au laboratoire n'ont pas été respectés, car l'échantillon a été conservé à la température ambiante de la réception jusqu'à l'analyse.
 ```
+### Blanc Positif
+=== "DBOc"
+    ```
+    Demande biochimique en oxygène carbonée : Blanc est positif, mais aucun impact sur le résultat de l’échantillon.
+    ```
+=== "DBOt"  
+    ```
+    Demande biochimique en oxygène totale : Blanc est positif, mais aucun impact sur le résultat de l’échantillon.
+    ```
+=== "DBOdissous"  
+    ```
+    Demande biochimique en oxygène dissous : Blanc est positif, mais aucun impact sur le résultat de l’échantillon.
+    ```
+=== "DBO c et d"  
+    ```
+    Demande biochimique en oxygène carbonée et dissous : Blanc est positif, mais aucun impact sur le résultat de l’échantillon.
+    ```

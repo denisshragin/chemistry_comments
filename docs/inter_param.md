@@ -25,6 +25,10 @@ Les résultats de XXX et de XXX ne respectent pas les critères de comparaison i
     ```
     Les résultats de la Demande chimique en oxygène dissous et de la Demande biochimique en oxygène dissous ne respectent pas les critères de comparaison inter-paramètres. Cependant, la différence entre les deux valeurs respecte l’écart d’imprécision des méthodes analytiques.
     ```
+=== "DCO dissous et DBO carbonée et dissous"
+    ```
+    Les résultats de la Demande chimique en oxygène dissous et de la Demande biochimique en oxygène carbonée et dissous ne respectent pas les critères de comparaison inter-paramètres. Cependant, la différence entre les deux valeurs respecte l’écart d’imprécision des méthodes analytiques.
+    ```
 
 #### DBO vs DBO
 === "DBO totale et DBO carbonée"
@@ -39,13 +43,16 @@ Les résultats de XXX et de XXX ne respectent pas les critères de comparaison i
     ```
     Les résultats de la Demande biochimique en oxygène carbonée et de la Demande biochimique en oxygène carbonée et dissous ne respectent pas les critères de comparaison inter-paramètres. Cependant, la différence entre les deux valeurs respecte l’écart d’imprécision des méthodes analytiques.
     ```
+=== "DBO dissous et DBO carbonée et dissous"
+    Les résultats de la Demande biochimique en oxygène dissous et de la Demande biochimique en oxygène carbonée et dissous ne respectent pas les critères de comparaison inter-paramètres. Cependant, la différence entre les deux valeurs respecte l’écart d’imprécision des méthodes analytiques.
+
 #### Azote ammoniacal et Azote total Kjeldahl
 ```
 Les résultats de l’Azote ammoniacal et de l’Azote total Kjeldahl ne respectent pas les critères de comparaison inter-paramètres. Cependant, la différence entre les deux valeurs respecte l’écart d’imprécision des méthodes analytiques.
 ```
-#### Phosphores totaux et Ortho-phosphates
+#### Phosphores totaux et Orthophosphates
 ```
-Les résultats des Phosphores totaux et des Ortho-phosphates ne respectent pas les critères de comparaison inter-paramètres. Cependant, la différence entre les deux valeurs respecte l’écart d’imprécision des méthodes analytiques.
+Les résultats des Phosphores totaux et des Orthophosphates ne respectent pas les critères de comparaison inter-paramètres. Cependant, la différence entre les deux valeurs respecte l’écart d’imprécision des méthodes analytiques.
 ```
 #### Métaux
 
@@ -61,6 +68,16 @@ Les résultats des Phosphores totaux et des Ortho-phosphates ne respectent pas l
 ```
 Les résultats de XXX et de XXX ne respectent pas les critères de comparaison inter-paramètres. Les résultats des 2 analyses ont été confirmés en reprise.
 ```
+
+Bouteilles différentes
+```
+Les résultats de la Demande chimique en oxygène et de la Demande biochimique en oxygène ne respectent pas les critères de comparaison inter-paramètres. L'apparence de la matrice des deux bouteilles est différente.
+```
+Bouteilles inversées
+```
+Les contenants semblent avoir été inversés par le client lors du prélèvement de l’affluent et de l’effluent pour l'analyse de XXX.
+```
+
 ### HGT vs C10-C50
 
 ```

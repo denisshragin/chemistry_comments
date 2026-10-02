@@ -262,7 +262,7 @@ Hydrocarbures aromatiques polycycliques : Les étalons de recouvrement sont non 
 ```
 HAP, surrogates bas, effet matrice
 ```
-Les récupérations des étalons de recouvrement sont hors des critères d'acceptabilité en raison d’un effet de matrice. Les résultats sont à interpréter avec diligence et discernement.
+Hydrocarbures aromatiques polycycliques : Les récupérations des étalons de recouvrement sont hors des critères d'acceptabilité en raison d'un effet de matrice. Les résultats sont à interpréter avec diligence et discernement.
 ```
 HAP, surro bas
 ```
@@ -270,7 +270,7 @@ Hydrocarbures aromatiques polycycliques : les récupérations des étalons de re
 ```
 HAP, MR non-conforme (trop fort)
 ```
-Hydrocarbures aromatiques polycycliques : Le matériau de référence est non-conforme (trop fort) pour le 7,12-diméthylbenzo(a)anthracène, le Benzo(e)pyrène, le Benzo(a)pyrène, le Dibenzo(a, h)antracène et le Dibenzo(a, h)pyrène. Le résultat de l’échantillon peut être surestimé pour ces composés.
+Hydrocarbures aromatiques polycycliques : Le matériau de référence est non-conforme pour le 7,12-diméthylbenzo[a]anthracène, le Benzo[e]pyrène, le Benzo[a]pyrène, le Dibenzo[a, h]antracène et le Dibenzo[a, h]pyrène. Le résultat de l’échantillon peut être surestimé pour ces composés.
 ```
 HAP, Dilution excessive
 ```
@@ -386,7 +386,7 @@ Blanc positif soustrait du résultat pour l'analyse de la Chlorophylle A.
 Le rapport des corps étrangers est en annexe.
 ```
 ```
-Les corps étrangers tranchants sont des polymères synthétiques et du verre.
+Échantillon liquide. L'analyse a été effectuée avec une dérogation de méthode.
 ```
 ```
 Les corps étrangers tranchants sont des XX et du XX.
@@ -397,7 +397,7 @@ Les corps étrangers tranchants sont des XX et du XX.
     ```
 === "Polymère"
     ```
-    Le corps étranger tranchant est un polymère synthétique.
+    Les corps étrangers tranchants sont des polymères synthétiques.
     ```
 === "Verre"
     ```
@@ -407,9 +407,14 @@ Les corps étrangers tranchants sont des XX et du XX.
     ```
     Le corps étranger tranchant est du métal.
     ```
+=== "Corps tranchants-multi"
+    ```
+    Les corps étrangers tranchants sont des polymères synthétiques et du verre. 
+    ```
  
-Allo Denis! Est-ce qu'on peut rajouter cette ligne de commentaire pour les corps étrangers? : 
+```
 Échantillon liquide. Analyse effectuée avec une dérogation de méthode.
+```
 
 ## B(a)P Hygiène
 LR augmentée (pour le support)

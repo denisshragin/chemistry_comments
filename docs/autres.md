@@ -38,7 +38,7 @@ Glycols : Les limites rapportées ont été augmentées due à une dilution de l
 ## Bouteilles différentes ou inversées
 Bouteilles différentes
 ```
-Les résultats de la Demande chimique en oxygène et de la Demande biochimique en oxygène ne respectent pas les critères de comparaison inter-paramètres. L'apparence de la matrice des deux bouteilles est différente
+Les résultats de la Demande chimique en oxygène et de la Demande biochimique en oxygène ne respectent pas les critères de comparaison inter-paramètres. L'apparence de la matrice des deux bouteilles est différente.
 ```
 Bouteilles inversées
 ```

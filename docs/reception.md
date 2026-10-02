@@ -54,7 +54,41 @@
     ```
     Échantillon composé 24 heures, soit du * au *. Le prélèvement pour l'analyse des coliformes fécaux est un échantillonage instantané en date du *.
     ```
+## Commentaires du client
+=== "Commentaires du client"
+    ```
+    Commentaires du client : 
+    ```
+=== "Commentaires à la réception"
+    ```
+    Commentaires à la réception : 
+    ```
+=== "Débit"
+    ```
+    Débit : m3/j.
+    ```
+=== "BNQ"
+    ```
+    Commentaires du client : Normes et limites du BNQ. Échantillonneur # * .
+    ```
 
+## Unités
+=== "Température, °C"
+    ```
+    °C
+    ```
+=== "Débit, m3/j"
+    ```
+    m3/j
+    ```
+=== "Concentration, mg/L "
+    ```
+    mg/L
+    ```
+=== "Conductivité, µS/cm "
+    ```
+    µS/cm
+    ```
 
 ## Délai de conservation dépassé (1 analyse)
 
@@ -329,38 +363,3 @@ The pH analysis was performed after the holding time has expired.
 The sample for Dissolved Metals analysis was filtered and preserved in the field.
 ```
 
-## Varia
-=== "Commentaires du client"
-    ```
-    Commentaires du client : 
-    ```
-=== "Commentaires à la réception"
-    ```
-    Commentaires à la réception : 
-    ```
-=== "Débit"
-    ```
-    Débit : m3/j.
-    ```
-=== "BNQ"
-    ```
-    Commentaires du client : Normes et limites du BNQ. Échantillonneur # * .
-    ```
-
-## Unités
-=== "Température, °C"
-    ```
-    °C
-    ```
-=== "Débit, m3/j"
-    ```
-    m3/j
-    ```
-=== "Concentration, mg/L "
-    ```
-    mg/L
-    ```
-=== "Conductivité, µS/cm "
-    ```
-    µS/cm
-    ```
