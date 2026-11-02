@@ -388,16 +388,14 @@ Le rapport des corps étrangers est en annexe.
 ```
 Échantillon liquide. L'analyse a été effectuée avec une dérogation de méthode.
 ```
-```
-Les corps étrangers tranchants sont des XX et du XX.
-```
+### Corps étrangers tranchants
 === "Corps tranchants-mono"
     ```
     Le corps étranger tranchant est du XX.
     ```
 === "Polymère"
     ```
-    Les corps étrangers tranchants sont des polymères synthétiques.
+    Le corps étranger tranchant est du polymère synthétique.
     ```
 === "Verre"
     ```
@@ -407,23 +405,14 @@ Les corps étrangers tranchants sont des XX et du XX.
     ```
     Le corps étranger tranchant est du métal.
     ```
-=== "Corps tranchants-multi"
-    ```
-    Les corps étrangers tranchants sont des polymères synthétiques et du verre. 
-    ```
- 
+Corps tranchants-multi
 ```
-Échantillon liquide. Analyse effectuée avec une dérogation de méthode.
+Les corps étrangers tranchants sont des polymères synthétiques et du verre. 
+```
+```
+Le corps étranger observé, identifié dans la catégorie « Autres », est constitué de tissu.
 ```
 
-## B(a)P Hygiène
-LR augmentée (pour le support)
-```
-Benzo[a]pyrène-Hygiène : La limite rapportée a été augmentée due à une plus grande utilisation de solvant en raison de la matrice de l'échantillon.
-```
-```
-Benzo[a]pyrène-Hygiène : La limite rapportée a été augmentée due à une dilution de l'échantillon en raison de la matrice.
-```
 
 ## MSB
 ```
